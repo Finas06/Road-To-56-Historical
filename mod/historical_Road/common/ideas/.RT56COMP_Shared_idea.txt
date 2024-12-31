@@ -1,0 +1,38 @@
+Ideas = {
+	country = {
+		rt56_comp_neutral_idea = {
+			picture = neutrality_idea
+			on_add = {
+				country_lock_all_division_template = yes
+			}
+			modifier = {
+				political_power_factor = -1
+				consumer_goods_expected_value = 1
+			}
+			rule = {
+				can_access_market = no
+				can_be_spy_master = no
+				can_create_factions = no
+				can_declare_call_to_war = no
+				can_join_factions = no
+				can_not_declare_war = yes
+				can_send_volunteers = no
+			}
+		}
+		rt56_comp_daily_xp = {
+			picture = tfv_can_conscription_crisis
+			modifier = {
+				experience_gain_army = 0.25
+				custom_modifier_tooltip = rt56_comp_daily_xp_tt
+			}
+		}
+		rt56_comp_allowvols = {
+			picture = FRA_scw_intervention_nationalists_focus
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 10
+				send_volunteers_tension = -1
+			} 
+		}
+	}
+}

@@ -1,0 +1,10 @@
+version="1"
+tags={
+	"Balance"
+	"Fixes"
+	"Historical"
+}
+name="HMM"
+supported_version="1.15.3"
+path="E:/SteamLibrary/steamapps/workshop/content/394360/3365264825"
+remote_file_id="3365264825"

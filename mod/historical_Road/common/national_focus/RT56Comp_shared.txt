@@ -1,0 +1,36 @@
+focus_tree = {
+	id = comp_shared
+	country = {
+		factor = 1
+	}
+	modifier = {
+		add = 99999
+		or = {
+			tag = BEL
+			tag = POR
+			tag = RTC
+			tag = TUR
+			tag = GRE
+			tag = YUG
+			tag = EST
+			tag = LAT
+			tag = LIT
+			tag = DEN
+			tag = SWE
+			tag = NOR
+			tag = AUS
+			tag = CZE
+			tag = INS
+			tag = MAL
+			tag = CZE
+		}
+	}
+	focus = {
+		id = continouus_AI_focus
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 9999
+		x = 1
+		y = 0
+		completion_reward = {}
+	}
+}

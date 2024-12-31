@@ -1,0 +1,30 @@
+focus_tree = {
+	id = ruthenian_focus_tree
+	
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            tag = RUT
+        }
+    }
+
+    continuous_focus_position = { x = 0 y = 800 }	
+	
+	default = no
+	reset_on_civilwar = no
+
+	focus = {
+		id = rut_annex
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 1
+		completion_reward = {
+			HUN = {
+				annex_country = {
+					target = ROOT
+				}
+			}
+		}
+	}
+}

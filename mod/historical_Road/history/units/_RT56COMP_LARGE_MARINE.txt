@@ -1,0 +1,32 @@
+division_template = {
+	name = "LARGE MARINE"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+        marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 1 y = 3 }
+        marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+		marine = { x = 2 y = 3 }
+		marine = { x = 3 y = 0 }
+		marine = { x = 3 y = 1 }
+		marine = { x = 3 y = 2 }
+		anti_tank_brigade = { x = 3 y = 3 }
+		mechanized = { x = 4 y = 0 }
+		mechanized = { x = 4 y = 1 }
+	}
+	
+	support = {
+        anti_air = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+		medium_flame_tank = { x = 0 y = 2 }
+		rangers_support = { x = 0 y = 3 }
+		pioneer_support  = { x = 0 y = 4 }
+	}
+}

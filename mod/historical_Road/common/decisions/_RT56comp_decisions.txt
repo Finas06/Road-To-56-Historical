@@ -1,0 +1,308 @@
+rt56comp_decisions = {
+	_RT56COMP_MA_Barb = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MA_Barb"
+			}
+		}    
+	}
+	_RT56COMP_MA_ASIA = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yees
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MA_ASIA"
+			}
+		}    
+	}
+	_RT56COMP_GBP_Barb = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = true
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_GBP_Barb"
+			}
+		}    
+	}
+	_RT56COMP_MA_PORT = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MA_PORT"
+			}
+		}    
+	}
+	_RT56COMP_PORT = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_PORT"
+			}
+		}    
+	}
+	_RT56COMP_MOUNTAINEER = {
+		icon = generic_intelligence_operation
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MOUNTAINEER"
+			}
+		}    
+	}
+	_RT56COMP_AT_MOUNTAINEER = {
+		icon = generic_intelligence_operation
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_AT_MOUNTAINEER"
+			}
+		}    
+	}
+	_RT56COMP_MARINE = {
+		icon = generic_intelligence_operation
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MARINE"
+			}
+		}    
+	}
+	_RT56COMP_LARGE_MARINE = {
+		icon = generic_intelligence_operation
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_LARGE_MARINE"
+			}
+		}    
+	}
+	_RT56COMP_MEDIUM_TANK = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MEDIUM_TANK"
+			}
+		}    
+	}
+	_RT56COMP_MEDIUM_TANK_DESTROYER = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MEDIUM_TANK_DESTROYER"
+			}
+		}    
+	}
+	_RT56COMP_HEAVY_TANK = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_HEAVY_TANK"
+			}
+		}    
+	}
+	_RT56COMP_HEAVY_TANK_DESTROYER = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_HEAVY_TANK_DESTROYER"
+			}
+		}    
+	}
+	_RT56COMP_MW_MEDIUM_TANK = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MW_MEDIUM_TANK"
+			}
+		}    
+	}
+	_RT56COMP_MW_MEDIUM_TANK_DESTROYER = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MW_MEDIUM_TANK_DESTROYER"
+			}
+		}    
+	}
+	_RT56COMP_MW_HEAVY_TANK = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MW_HEAVY_TANK"
+			}
+		}    
+	}
+	_RT56COMP_MW_HEAVY_TANK_DESTROYER = {
+		icon = generic_tank
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				load_oob = "_RT56COMP_MW_HEAVY_TANK_DESTROYER"
+			}
+		}    
+	}
+	hide_div_templates = {
+		icon = generic_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = hide_div_templates
+			}
+		}
+	}
+}
+
+rt56_comp_show_div_templates = {
+	show_div_templates = {
+		icon = generic_civil_war
+		allowed = {
+			is_playable_country = yes
+		}
+		visible = {
+			always = yes
+		}
+		fire_only_once = no
+		modifier = {}
+		complete_effect = {
+			hidden_effect = {
+				clr_country_flag = hide_div_templates
+			}
+		}
+	}
+}

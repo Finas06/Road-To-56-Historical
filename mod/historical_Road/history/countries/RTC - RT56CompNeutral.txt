@@ -1,0 +1,29 @@
+capital = 1074
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 0
+set_research_slots = 1
+
+add_ideas = {
+	rt56_comp_neutral_idea
+	closed_economy
+}
+
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}

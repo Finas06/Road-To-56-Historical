@@ -1,0 +1,70 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = no_vols
+						option = rt56_comp_vols_yes
+					}
+				}
+				GER = {
+					set_country_flag = rt56comp_daily_xp
+				}
+				SOV = {
+					set_country_flag = rt56comp_daily_xp
+				}
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						tag = GER
+						tag = SOV
+						tag = ITA
+						tag = CHI
+						tag = SPR
+						tag = SPA
+						tag = JAP
+					}
+				}
+				set_country_flag = rt56comp_daily_xp
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_country_flag = rt56comp_daily_xp
+					}
+					add_timed_idea = {
+						idea = rt56_comp_daily_xp
+						days = 1095
+					}
+				}
+			}
+			every_country = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = no_vols
+							option = rt56_comp_vols_yes
+						}
+					}
+					set_rule = { can_send_volunteers = no }
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_game_rule = {
+								rule = no_vols
+								option = rt56_comp_vols_yes
+							}
+						}
+					}
+					add_timed_idea = {
+						idea = rt56_comp_allowvols
+						days = 1095
+					}
+				}
+			}
+		}
+	}
+}

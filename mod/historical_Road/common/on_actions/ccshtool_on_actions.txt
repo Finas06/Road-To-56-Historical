@@ -1,0 +1,28 @@
+on_actions = {
+on_startup = {
+effect = {
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_ENG } } ENG = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_FRA } } FRA = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_GER } } GER = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_ITA } } ITA = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_JAP } } JAP = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_SOV } } SOV = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_USA } } USA = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_AUS } } AUS = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_BRA } } BRA = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_RAJ } } RAJ = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_BUL } } BUL = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_CAN } } CAN = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_FIN } } FIN = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_HUN } } HUN = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_IRE } } IRE = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_MAN } } MAN = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_MEX } } MEX = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_NZL } } NZL = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_ROM } } ROM = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_SIA } } SIA = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_SAF } } SAF = { set_country_flag = ccshtool_enabled_cflag } }
+if = { limit = { has_game_rule = { rule = ccshtool_gr   option = ccshtool_gr_SPR } } SPR = { set_country_flag = ccshtool_enabled_cflag } }
+}
+}
+}
