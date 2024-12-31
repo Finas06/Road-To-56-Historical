@@ -3082,7 +3082,6 @@ country_event = {
 									original_tag = CAT
 									original_tag = SPR
 									original_tag = AUS
-									original_tag = ADU
 									original_tag = GRE
 									original_tag = CZE
 									original_tag = YUG
@@ -3212,7 +3211,6 @@ country_event = {
 									original_tag = NAV
 									original_tag = SPR
 									original_tag = CAT
-									original_tag = ADU
 									original_tag = POR
 								}
 								
@@ -3232,7 +3230,6 @@ country_event = {
 									original_tag = NAV
 									original_tag = SPR
 									original_tag = CAT
-									original_tag = ADU
 									original_tag = POR
 								}
 								

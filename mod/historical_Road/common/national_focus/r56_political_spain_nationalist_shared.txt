@@ -108,16 +108,6 @@
 
 		completion_reward = {
 			add_threat = 2
-			if = {
-				limit = {
-					country_exists = ADU
-				}
-				create_wargoal = {
-					target = ADU
-					expire = 0
-					type = annex_everything
-				}				
-			}
 			create_wargoal = {
 				target = CAT
 				expire = 0

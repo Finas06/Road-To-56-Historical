@@ -336,16 +336,6 @@ focus_tree = {
 			add_threat = 2
 			if = {
 				limit = {
-					country_exists = ADU
-				}
-				create_wargoal = {
-					target = ADU
-					expire = 0
-					type = annex_everything
-				}				
-			}
-			if = {
-				limit = {
 					country_exists = CNR
 				}
 				create_wargoal = {

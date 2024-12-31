@@ -3107,11 +3107,6 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.05
 			}	
-			add_timed_idea = {
-				
-				idea = ADU_popular_front
-				days = 1095				
-			}	
 			add_stability = -0.05					
 			
 		}

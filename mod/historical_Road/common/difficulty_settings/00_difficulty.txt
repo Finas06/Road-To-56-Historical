@@ -55,20 +55,6 @@ difficulty_settings = {
 	###---> Minors: A <><> <><> <><>
 	
 	difficulty_setting = {
-		key = "custom_diff_strong_adu"
-		modifier = diff_strong_ai_generic
-		countries = { ADU }
-		multiplier = 2.0
-	}
-	
-	difficulty_setting = {
-		key = "custom_diff_strong_afa"
-		modifier = diff_strong_ai_generic
-		countries = { AFA }
-		multiplier = 2.0
-	}
-	
-	difficulty_setting = {
 		key = "custom_diff_strong_ahv"
 		modifier = diff_strong_ai_generic
 		countries = { AHV }

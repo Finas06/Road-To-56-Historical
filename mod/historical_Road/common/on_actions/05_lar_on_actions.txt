@@ -2349,23 +2349,6 @@ on_actions = {
 			if = {
 				#add target nationality
 				limit = {
-					has_nationality = ADU
-				}
-				random_list = {
-					98 = {
-						
-					}
-					1 = { 
-						add_nationality = MOR
-					}
-					1 = { 
-						add_nationality = ALG
-					}																													
-				}
-			}
-			if = {
-				#add target nationality
-				limit = {
 					has_nationality = SOV
 				}
 				random_list = {

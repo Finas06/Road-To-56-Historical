@@ -6193,7 +6193,6 @@ on_actions = {
 						original_tag = MEL
 
 						original_tag = QAT
-						original_tag = ADU
 						original_tag = GLC
 						original_tag = HAW
 					}
@@ -8703,7 +8702,6 @@ on_actions = {
 						original_tag = MEL
 
 						original_tag = QAT
-						original_tag = ADU
 						original_tag = GLC
 						original_tag = HAW
 					}

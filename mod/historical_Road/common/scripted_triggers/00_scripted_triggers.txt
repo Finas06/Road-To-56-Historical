@@ -1111,7 +1111,6 @@ is_unlikely_country_tag = {
 	    tag = CAT
 	    tag = NAV
 	    tag = GLC
-	    tag = ADU
 	    tag = BRI
 	    tag = OCC
 	    tag = COR

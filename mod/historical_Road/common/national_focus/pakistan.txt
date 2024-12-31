@@ -668,7 +668,6 @@ focus_tree = {
                             tag = MOR
                             tag = EGY
                             tag = QAT
-                            tag = ADU
 						}
 						OR = {
 							has_government = neutrality
