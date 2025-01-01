@@ -6088,7 +6088,7 @@ on_actions = {
 						original_tag = RUT
 
 						
-						original_tag = ALG
+						
 						original_tag = ANG
 						original_tag = CAN
 						original_tag = MZB
@@ -8598,7 +8598,7 @@ on_actions = {
 						original_tag = RUT
 
 						
-						original_tag = ALG
+						
 						original_tag = ANG
 						original_tag = CAN
 						original_tag = MZB
@@ -14934,7 +14934,7 @@ on_actions = {
 				}
 				FRA = {
 					release = MOR
-					release = ALG
+
 					release = TUN
 					release = DJI
 					release = MAD

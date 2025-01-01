@@ -634,7 +634,6 @@ on_actions = {
 					delete_unit = { state = 458 }
 					delete_unit = { state = 459 }
 					release = MOR
-					release = ALG
 					release = TUN
 					release = DJI
 					release = MAD
@@ -751,7 +750,6 @@ on_actions = {
 							is_on_continent = africa
 						}
 						NOT = {
-							original_tag = ALG
 							original_tag = EGY
 							original_tag = SAF
 							original_tag = ETH

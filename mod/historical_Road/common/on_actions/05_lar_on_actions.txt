@@ -255,7 +255,7 @@ on_actions = {
 								original_tag = KUW
 								original_tag = UAE
 								original_tag = QAT
-								original_tag = ALG
+								
 								original_tag = MOR
 							}							
 						}
@@ -273,7 +273,6 @@ on_actions = {
 							has_nationality = KUW
 							has_nationality = UAE
 							has_nationality = QAT
-							has_nationality = ALG
 							has_nationality = MOR
 						}						
 						ROOT = {
@@ -599,7 +598,7 @@ on_actions = {
 								original_tag = KUW
 								original_tag = UAE
 								original_tag = QAT
-								original_tag = ALG
+								
 								original_tag = MOR
 							}							
 						}
@@ -617,7 +616,7 @@ on_actions = {
 							has_nationality = KUW
 							has_nationality = UAE
 							has_nationality = QAT
-							has_nationality = ALG
+
 							has_nationality = MOR
 						}						
 						ROOT = {
@@ -2961,9 +2960,7 @@ on_actions = {
 					1 = {
 						add_nationality = IRQ
 					}
-					1 = {
-						add_nationality = ALG
-					}																																																																																					
+																																																																																					
 					55 = { 
 						
 					}

@@ -1427,14 +1427,7 @@ PAL_integration_of_arab_states = {
 			}
 		}
 
-		visible = {
-			any_state = {
-				is_core_of = ALG
-				any_neighbor_state = {
-					is_controlled_by = PAL
-				}
-			}
-		}
+
 
 		highlight_states = {
 			highlight_state_targets = {

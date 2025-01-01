@@ -15218,7 +15218,6 @@ focus_tree = {
 							has_full_control_of_state = 462
 						}
 						AND = {
-							NOT = { original_tag = ALG }
 							owns_state = 459
 							has_full_control_of_state = 459
 							owns_state = 513
@@ -15340,9 +15339,6 @@ focus_tree = {
 							is_subject_of = PREV
 						}
 						MOR = {
-							is_subject_of = PREV
-						}
-						ALG = {
 							is_subject_of = PREV
 						}
 						TUN = {

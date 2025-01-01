@@ -469,15 +469,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = lar_france_french_union.2.a
-		if = {
-			limit = {
-				ALG = {
-					exists = yes
-					is_subject_of = ROOT
-				}
-			}
-			annex_country = { target = ALG }
-		}
+		
 		if = {
 			limit = {
 				TUN = {
@@ -499,7 +491,7 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
-					is_core_of = ALG
+
 					is_core_of = TUN
 					is_core_of = MOR
 				}
@@ -518,20 +510,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = lar_france_french_union.3.a
-		if = {
-			limit = {
-				ALG = {
-					exists = yes
-					is_subject_of = ROOT
-				}
-			}
-			OVERLORD = {
-				set_autonomy = {
-					target = ALG
-					autonomy_state = autonomy_free
-				}
-			}
-		}
+		
 		if = {
 			limit = {
 				TUN = {
@@ -565,7 +544,7 @@ country_event = {
 				is_controlled_by = ROOT
 				NOT = { is_core_of = ROOT }
 				OR = {
-					is_core_of = ALG
+
 					is_core_of = TUN
 					is_core_of = MOR
 				}
@@ -3087,7 +3066,7 @@ country_event = {
 									original_tag = YUG
 									original_tag = TUR
 									original_tag = MOR
-									original_tag = ALG
+									
 									original_tag = TUN
 									original_tag = EGY
 									original_tag = LBA

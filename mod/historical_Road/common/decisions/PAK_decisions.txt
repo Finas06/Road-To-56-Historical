@@ -47,7 +47,6 @@ political_actions = {
 					is_core_of = LIB
 					is_core_of = MOR
 					is_core_of = TUN
-					is_core_of = ALG
 					is_core_of = ALB
 					is_core_of = EGY
 					is_core_of = BAN

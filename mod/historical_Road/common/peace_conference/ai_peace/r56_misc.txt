@@ -66,7 +66,7 @@ peace_ai_desires = {
                                 }
                                 original_tag = MRT
                                 original_tag = MOR
-                                original_tag = ALG
+
                                 original_tag = TUN
                                 original_tag = LBA
                                 original_tag = EGY

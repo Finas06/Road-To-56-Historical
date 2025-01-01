@@ -2756,7 +2756,6 @@ FRA_decolonization = {
 	}
 	FRA_independence_for_north_africa_mission = {
 		available = {
-			country_exists = ALG
 			country_exists = MOR
 			country_exists = TUN
 		}
@@ -2766,7 +2765,6 @@ FRA_decolonization = {
 			has_war = no
 			NOT = {
 				country_exists = MOR
-				country_exists = ALG
 				country_exists = TUN
 			}
 			461 = { is_controlled_by = ROOT }
@@ -2785,7 +2783,6 @@ FRA_decolonization = {
 			every_state = {
 				limit = {
 					OR = {
-						is_core_of = ALG
 						is_core_of = MOR
 						is_core_of = TUN
 					}

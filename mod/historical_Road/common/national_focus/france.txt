@@ -1131,12 +1131,7 @@ focus_tree = {
 					controls_state = 460
 					controls_state = 513
 				}
-				ALG = {
-					is_subject_of = ROOT
-					controls_state = 459
-					controls_state = 460
-					controls_state = 513
-				}
+				
 			}
 		}
 		
@@ -1165,22 +1160,6 @@ focus_tree = {
 					type = synthetic_refinery
 					level = 2
 					instant_build = yes
-				}
-			}
-			if = {
-				limit = {
-					ALG = {
-						is_subject_of = ROOT
-						controls_state = 459
-						controls_state = 460
-						controls_state = 513
-					}
-				}
-				ALG = {
-					add_autonomy_ratio = {
-						value = -0.15
-						localization = FRA_colonial_investments
-					}
 				}
 			}
 		}
@@ -2407,14 +2386,6 @@ focus_tree = {
 					controls_state = 933
 					controls_state = 514
 				}
-				ALG = {
-					is_subject_of = ROOT
-					controls_state = 459
-					controls_state = 460
-					controls_state = 513
-					controls_state = 933
-					controls_state = 514
-				}
 			}
 		}
 		
@@ -2462,15 +2433,6 @@ focus_tree = {
 			add_state_core = 513
 			add_state_core = 933
 			add_state_core = 514
-			if = {
-				limit = {
-					ALG = {
-						exists = yes
-						is_subject_of = ROOT
-					}
-				}
-				annex_country = { target = ALG }
-			}
 			FRA_right_wing_riot_effect = yes
 		}
 	}

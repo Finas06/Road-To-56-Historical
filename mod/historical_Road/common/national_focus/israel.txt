@@ -6675,7 +6675,7 @@ focus_tree = {
 						OR = {
 							original_tag = MRT
 							original_tag = MOR
-							original_tag = ALG
+							
 							original_tag = TUN
 							original_tag = LBA
 							original_tag = EGY
@@ -6725,7 +6725,7 @@ focus_tree = {
 						OR = {
 							original_tag = MRT
 							original_tag = MOR
-							original_tag = ALG
+							
 							original_tag = TUN
 							original_tag = LBA
 							original_tag = EGY

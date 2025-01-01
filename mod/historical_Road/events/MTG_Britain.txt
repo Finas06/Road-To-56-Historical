@@ -3360,7 +3360,6 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { original_tag = ALG }
 				owns_state = 459
 				has_full_control_of_state = 459
 				owns_state = 513
@@ -3371,17 +3370,6 @@ country_event = {
 				has_full_control_of_state = 460
 				owns_state = 514
 				has_full_control_of_state = 514
-			}
-			release = ALG
-		}
-		if = {
-			limit = {
-				ALG = {
-					is_subject_of = ROOT
-				}
-			}
-			set_autonomy = { target = ALG autonomy_state = autonomy_free }
-			ALG = { leave_faction = yes }
 		}
 		if = {
 			limit = {

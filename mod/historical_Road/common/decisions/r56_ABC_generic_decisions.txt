@@ -102,7 +102,7 @@ ABC_army_effort = {
 					is_core_of = NGR
 					is_core_of = CHA
 					is_core_of = MOR
-					is_core_of = ALG
+					
 					is_core_of = TUN
 					is_core_of = PAL
 					is_core_of = EGY
@@ -136,7 +136,7 @@ ABC_army_effort = {
 					is_core_of = NGR
 					is_core_of = CHA
 					is_core_of = MOR
-					is_core_of = ALG
+					
 					is_core_of = TUN
 					is_core_of = PAL
 					is_core_of = EGY

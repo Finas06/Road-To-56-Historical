@@ -52,7 +52,7 @@ political_actions = {
 				original_tag = UAE
 				original_tag = QAT
 				original_tag = TUN
-				original_tag = ALG
+
 				original_tag = MOR
 				original_tag = ADU
 			}

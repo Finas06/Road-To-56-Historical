@@ -76,7 +76,7 @@ fascism_on_the_rise = {
 		NOT = {
 			OR = {
 				original_tag = SWE
-				original_tag = ALG
+				
 				original_tag = LIE
 				tag = BUL
 				AND = {
@@ -150,7 +150,7 @@ communism_on_the_rise = {
 		NOT = {
 			OR = {
 				original_tag = SWE
-				original_tag = ALG
+				
 				original_tag = AUS
 				AND = {
 					tag = RAJ

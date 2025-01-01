@@ -2431,10 +2431,6 @@ focus_tree = {
 				ideology = democratic
 				popularity = 0.05
 			}
-			swap_ideas = {
-				remove_idea = WAF_religious_divide
-				add_idea = ALG_religious_freedom_buff
-			}
 		}
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 	}  

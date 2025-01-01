@@ -2665,7 +2665,7 @@ news_event = { #suez contested
 			limit = {
 				OR = {
 					original_tag = MOR
-					original_tag = ALG
+					
 					original_tag = TUN
 					original_tag = LBA
 					capital_scope = {

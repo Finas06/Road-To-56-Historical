@@ -2573,7 +2573,6 @@ form_ottoman_empire_category = {
                             limit = {
                                 OR = {
 									has_nationality = TUN
-									has_nationality = ALG
                                 }
                                 NOT = {
                                     has_nationality = ROOT
@@ -5188,8 +5187,7 @@ form_roman_empire_category = {
                         every_operative = {
                             limit = {
                                 OR = {
-									has_nationality = MOR
-									has_nationality = ALG																
+									has_nationality = MOR															
                                 }
                                 NOT = {
                                     has_nationality = ROOT
@@ -7473,7 +7471,7 @@ form_arabia_category = {
 				original_tag = QAT
 				original_tag = BHR
 				original_tag = TUN
-				original_tag = ALG
+
 				original_tag = MOR
 				original_tag = ADU
 				original_tag = DJI
@@ -7590,7 +7588,7 @@ form_arabia_category = {
 				original_tag = QAT
 				original_tag = BHR
 				original_tag = TUN
-				original_tag = ALG
+
 				original_tag = MOR
 				original_tag = ADU
 				original_tag = DJI
@@ -7631,7 +7629,7 @@ form_arabia_category = {
 									has_nationality = UAE
 									has_nationality = LBA
 									has_nationality = TUN
-									has_nationality = ALG
+
 									has_nationality = MOR
 									has_nationality = EGY
 									has_nationality = SUD
@@ -8590,7 +8588,7 @@ form_andalusia_category = {
 		allowed = {
 			OR = {
 				original_tag = MOR
-				original_tag = ALG
+
 				original_tag = TUN
 				original_tag = WES
 				original_tag = LBA
@@ -8616,7 +8614,7 @@ form_andalusia_category = {
 		visible = {
 			OR = {
 				original_tag = MOR
-				original_tag = ALG
+
 				original_tag = TUN
 				original_tag = WES
 				original_tag = LBA
@@ -8636,7 +8634,7 @@ form_andalusia_category = {
                             limit = {
                                 OR = {
 									has_nationality = MOR
-									has_nationality = ALG
+
 									has_nationality = TUN
 									has_nationality = LBA
 									has_nationality = WES									

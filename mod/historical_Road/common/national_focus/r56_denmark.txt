@@ -4200,7 +4200,6 @@ focus_tree = {
 							original_tag = MEX
 							original_tag = SAF
 							original_tag = EGY
-							original_tag = ALG
 						}
                         is_faction_leader = yes
                         has_government = communism

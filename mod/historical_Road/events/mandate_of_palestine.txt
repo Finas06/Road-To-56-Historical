@@ -1972,7 +1972,7 @@ news_event = { # ISR declared
 				original_tag = UAE
 				original_tag = PER
 				original_tag = LBA
-				original_tag = ALG
+				
 				original_tag = MOR
 				original_tag = YEM
 				original_tag = OMA
@@ -2012,7 +2012,7 @@ news_event = { # ISR declared
 				original_tag = UAE
 				original_tag = PER
 				original_tag = LBA
-				original_tag = ALG
+				
 				original_tag = MOR
 				original_tag = YEM
 				original_tag = OMA

@@ -4588,11 +4588,7 @@ focus_tree = {
             factor = 1
         }
 		bypass = {
-			ALG = {
-				all_core_state = {
-					is_controlled_by = PAL
-				}
-			}
+			
 			MOR = {
 				all_core_state = {
 					is_controlled_by = PAL
@@ -4609,7 +4605,7 @@ focus_tree = {
 					NOT = { is_subject_of = ROOT }
 					any_owned_state = {
 						OR = {
-							is_core_of = ALG
+
 							is_core_of = MOR
 						}
 					}
@@ -4718,11 +4714,7 @@ focus_tree = {
 					is_controlled_by = PAL
 				}
 			}
-			ALG = {
-				all_core_state = {
-					is_controlled_by = PAL
-				}
-			}
+
 			MOR = {
 				all_core_state = {
 					is_controlled_by = PAL
