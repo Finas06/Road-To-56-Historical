@@ -86,6 +86,7 @@ country_event = {
 						activate_mission = SPR_secure_the_guardia_civil_mission
 					}
 				}
+				
 				activate_mission = SPA_military_plot_nationalists
 				hidden_effect = {
 					country_event = { id = lar_spain.3 } # Government working against the nationalists

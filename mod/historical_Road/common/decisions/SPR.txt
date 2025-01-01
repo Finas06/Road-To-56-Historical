@@ -10,7 +10,7 @@ SPR_the_inevitable_civil_war = {
 			hidden_trigger = { always = no }
 		}
 
-		days_mission_timeout = 250
+		days_mission_timeout = 153
 
 		fire_only_once = yes
 
@@ -127,10 +127,7 @@ SPR_the_inevitable_civil_war = {
 			    ideology = fascism
 			    popularity = 0.05
 			}
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = -36
-			}
+			
 			clr_country_flag = SPR_inevitable_civil_war_in_progress_flag
 			if = {
 				limit = {
@@ -186,10 +183,6 @@ SPR_the_inevitable_civil_war = {
 		remove_effect = {
 			add_stability = 0.05
 			add_political_power = 25
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = 37
-			}
 			clr_country_flag = SPR_inevitable_civil_war_in_progress_flag
 			set_country_flag = SPA_primo_de_rivera_imprisoned
 			custom_effect_tooltip = SPR_imprison_primo_de_rivera_tt
@@ -239,10 +232,7 @@ SPR_the_inevitable_civil_war = {
 		remove_effect = {
 			add_stability = -0.05
 			add_war_support = 0.1
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = -36
-			}
+			
 			clr_country_flag = SPR_inevitable_civil_war_in_progress_flag
 			set_country_flag = SPA_political_assassination_flag
 		}
@@ -292,10 +282,6 @@ SPR_the_inevitable_civil_war = {
 		remove_effect = {
 			add_political_power = 25
 			add_stability = 0.05
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = 37
-			}
 			clr_country_flag = SPR_inevitable_civil_war_in_progress_flag
 			clr_country_flag = SPA_political_assassination_flag
 		}
@@ -342,10 +328,7 @@ SPR_the_inevitable_civil_war = {
 		}
 
 		remove_effect = {
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = -36
-			}
+			
 			random_unit_leader = {
 				limit = {
 					NOT = { has_trait = trait_SPA_nationalist_sympathies }
@@ -402,10 +385,6 @@ SPR_the_inevitable_civil_war = {
 		}
 
 		remove_effect = {
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = 37
-			}
 			random_unit_leader = {
 				limit = {
 					has_trait = trait_SPA_nationalist_sympathies
@@ -462,10 +441,6 @@ SPR_the_inevitable_civil_war = {
 		}
 
 		remove_effect = {
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = 37
-			}
 			random_army_leader = {
 				limit = {
 					has_trait = trait_SPA_nationalist_sympathies
@@ -528,10 +503,7 @@ SPR_the_inevitable_civil_war = {
 		}
 
 		remove_effect = {
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = -36
-			}
+			
 			SPR_suppress_the_strikes_increase = yes
 			clr_country_flag = SPR_inevitable_civil_war_in_progress_flag
 		}
@@ -584,10 +556,6 @@ SPR_the_inevitable_civil_war = {
 		}
 
 		remove_effect = {
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = 37
-			}
 			SPR_concessions_to_the_left_increase = yes
 			clr_country_flag = SPR_inevitable_civil_war_in_progress_flag
 		}
@@ -5057,10 +5025,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = -25
-			}
 			add_popularity = {
 			    ideology = fascism
 			    popularity = 0.05
@@ -5112,10 +5076,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = 15
-			}
 			add_stability = -0.05
 			custom_effect_tooltip = SPR_imprison_primo_de_rivera_tt
 			set_country_flag = SPA_primo_de_rivera_imprisoned
@@ -5159,10 +5119,6 @@ SPR_opposition_civil_war_preparations = {
 
 		timeout_effect = {
 			add_stability = -0.1
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = -25
-			}
 			set_country_flag = SPA_political_assassination_flag
 			hidden_effect = {
 				country_event = { id = lar_spain.4 }
@@ -5203,10 +5159,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = 15
-			}
 			add_popularity = {
 			    ideology = communism
 			    popularity = 0.05
@@ -5251,10 +5203,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = -25
-			}
 			random_unit_leader = {
 				limit = {
 					NOT = { has_trait = trait_SPA_nationalist_sympathies }
@@ -5302,10 +5250,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = 15
-			}
 			random_army_leader = {
 				limit = {
 					has_trait = trait_SPA_nationalist_sympathies
@@ -5356,10 +5300,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPR_military_plot_republicans
-				days = -25
-			}
 			SPR_suppress_the_strikes_increase = yes
 			hidden_effect = {
 				country_event = { id = lar_spain.4 }
@@ -5400,10 +5340,6 @@ SPR_opposition_civil_war_preparations = {
 		}
 
 		timeout_effect = {
-			add_days_mission_timeout = {
-				mission = SPA_military_plot_nationalists
-				days = 15
-			}
 			SPR_concessions_to_the_left_increase = yes
 			hidden_effect = {
 				country_event = { id = lar_spain.3 }
