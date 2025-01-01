@@ -10187,7 +10187,7 @@ focus_tree = {
 		available = {
 			if = {
 				has_army_manpower = { size > 499999 }
-				date > 1937.6.1
+				date > 1937.4.1
 			}
 			
 			NOT = { has_idea = rhineland_challenge_met }
