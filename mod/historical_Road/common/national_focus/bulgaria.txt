@@ -7623,8 +7623,6 @@ focus_tree = {
 		y = 2
 		cost = 10
 
-		mutually_exclusive = { focus = BUL_found_the_brannik }
-
 		available = {
 			fascism > 0.4
 		}
