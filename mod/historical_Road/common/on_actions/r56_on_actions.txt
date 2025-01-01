@@ -6087,7 +6087,7 @@ on_actions = {
 						original_tag = SLO
 						original_tag = RUT
 
-						original_tag = AHV
+						
 						original_tag = ALG
 						original_tag = ANG
 						original_tag = CAN
@@ -6253,7 +6253,7 @@ on_actions = {
 						original_tag = BRI
 						original_tag = QBC
 						original_tag = KOR
-						original_tag = AHV
+						
 						original_tag = ICE
 						#soviet countries
 						original_tag = AZR
@@ -6262,7 +6262,7 @@ on_actions = {
 						original_tag = GEO
 						original_tag = UKR
 						#scandinavian countries
-						original_tag = AHV
+						
 						original_tag = ICE
 
 					}
@@ -8597,7 +8597,7 @@ on_actions = {
 						original_tag = SLO
 						original_tag = RUT
 
-						original_tag = AHV
+						
 						original_tag = ALG
 						original_tag = ANG
 						original_tag = CAN
@@ -8763,7 +8763,7 @@ on_actions = {
 						original_tag = BRI
 						original_tag = QBC
 						original_tag = KOR
-						original_tag = AHV
+						
 						original_tag = ICE
 						#soviet countries
 						original_tag = AZR
@@ -8772,7 +8772,7 @@ on_actions = {
 						original_tag = GEO
 						original_tag = UKR
 						#scandinavian countries
-						original_tag = AHV
+						
 						original_tag = ICE
 					}
 				}
@@ -9776,7 +9776,6 @@ on_actions = {
 					#remove_core_of = VLA
 					#remove_core_of = YAM
 					#expanded the list to manz others
-					remove_core_of = AHV
 					remove_core_of = ALT
 					remove_core_of = BAY
 					remove_core_of = BSK
@@ -9827,7 +9826,6 @@ on_actions = {
 					#remove other Russian minors, what about Karelia?
 
 					#also remove claims just in case
-					remove_claim_by = AHV
 					remove_claim_by = ALT
 					remove_claim_by = BAY
 					remove_claim_by = BSK

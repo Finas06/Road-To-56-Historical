@@ -3200,7 +3200,6 @@ focus_tree = {
 
 		bypass = {
 			OR = {
-				AHV = { exists = yes }
 				ROOT = { NOT = { owns_state = 145 } }
 				ROOT = { is_subject = yes }
 			}
@@ -3681,7 +3680,6 @@ focus_tree = {
 			145 = { is_demilitarized_zone = no }
 			OR = {
 			controls_state = 145
-			AHV = { controls_state = 145}
 			}
 		}
 		
@@ -5471,7 +5469,6 @@ focus_tree = {
 
 		bypass = {
 			OR = {
-				AHV = { exists = yes }
 				ROOT = { NOT = { owns_state = 145 } }
 				ROOT = { is_subject = yes }
 			}

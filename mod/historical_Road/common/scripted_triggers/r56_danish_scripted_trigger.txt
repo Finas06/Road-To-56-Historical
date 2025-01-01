@@ -15,7 +15,6 @@ is_nordic_country = {
             tag = SWE
             tag = FIN
             tag = KAR
-            tag = AHV
             tag = SMI
             tag = ICE
             tag = GRL   #culturally kinda nordic

@@ -8,7 +8,6 @@ gen_is_nordic_country = { # Borrowed from r56_danish_scripted_trigger
             tag = DEN
             tag = FIN
             tag = KAR
-            tag = AHV
             tag = SMI
             tag = ICE
             tag = GRL   #culturally kinda nordic

@@ -3123,7 +3123,7 @@ focus_tree = {
 								tag = GLC
 								tag = NAV
 								tag = CAT
-								tag = ADU
+								
 							}
 							NOT = { has_war_with = ROOT }
 							NOT = { is_puppet_of = ROOT }
@@ -3158,7 +3158,7 @@ focus_tree = {
 								tag = GLC
 								tag = NAV
 								tag = CAT
-								tag = ADU
+								
 							}
 							is_puppet_of = ROOT
 						}
@@ -3171,7 +3171,7 @@ focus_tree = {
 									tag = GLC
 									tag = NAV
 									tag = CAT
-									tag = ADU
+									
 								}
 								is_puppet_of = ROOT
 							}
@@ -3193,7 +3193,7 @@ focus_tree = {
 							tag = GLC
 							tag = NAV
 							tag = CAT
-							tag = ADU
+							
 						}
 						NOT = { has_war_with = ROOT }
 						NOT = { is_puppet_of = ROOT }

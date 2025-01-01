@@ -2037,7 +2037,6 @@ country_event = { #Resolves Europe Post Yalta
 							is_core_of = BEL
 							is_core_of = HOL
 							is_core_of = NOR
-							is_core_of = AHV
 							is_core_of = FIN
 						}
 					}
@@ -2219,19 +2218,12 @@ country_event = { #Resolves Europe Post Yalta
 				#	}
 				#}
 				if = {
-					limit = {
-						AHV = {
-							is_ai = yes
-							is_puppet_of = SOV
-						}
-					}
 					every_state = { 
 						limit = {
 							is_core_of = FIN
 							OR = {
 								is_owned_and_controlled_by = GER
 								is_owned_and_controlled_by = SOV
-								is_owned_and_controlled_by = AHV
 							}
 							NOT = {
 								is_core_of = GER

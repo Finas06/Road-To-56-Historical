@@ -33,7 +33,6 @@ peace_ai_desires = {
                     tag = SAD
                     tag = VNZ
                     tag = HES
-                    tag = AHV
                     tag = WLS #Keep Southern England as one 
                     tag = BAY #Lets not border gore Germany after Yalta. Pretty Please 
                     tag = HYD #Silly India 
