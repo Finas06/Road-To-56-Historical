@@ -573,7 +573,7 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { brilliant_strategist media_personality war_hero trait_reckless panzer_leader cavalry_leader trickster }
+			traits = { brilliant_strategist media_personality war_hero trait_reckless organizer panzer_leader cavalry_leader trickster }
 			skill=7
 			attack_skill=9
 			defense_skill=6
@@ -641,7 +641,7 @@ characters = {
 		}
 		
 		corps_commander = {
-			traits = { brilliant_strategist career_officer panzer_leader panzer_expert trickster urban_assault_specialist thorough_planner }
+			traits = { brilliant_strategist career_officer organizer panzer_leader panzer_expert trickster urban_assault_specialist thorough_planner }
 			skill=7
 			attack_skill=7
 			defense_skill=6
