@@ -8517,9 +8517,6 @@ focus_tree = {
 		y = 0
 		relative_position_id = ITA_solid_progress
 		cost = 5
-		allow_branch = {
-			has_country_flag = this_flag_doesnt_exist
-		}
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = ITA_the_abyssinian_fiasco_completion_tt
@@ -8599,7 +8596,7 @@ focus_tree = {
 		icon = GFX_focus_generic_secret_service_agency
 		prerequisite = { focus = ITA_solid_progress focus = ITA_the_abyssinian_fiasco focus = ITA_struggle_in_ethiopia }
 
-		x = 0
+		x = 1
 		y = 1
 		offset = {
 			x = 1
@@ -14652,8 +14649,8 @@ focus_tree = {
 		x = 6
 		y = 0
 		relative_position_id = ITA_towards_a_greater_italy
-		allowbranch = {
-			always = false
+		allow_branch = {
+			always = no
 		}
 		offset = {
 			x = -25
