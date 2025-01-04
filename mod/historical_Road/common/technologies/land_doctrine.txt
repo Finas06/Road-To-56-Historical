@@ -222,11 +222,6 @@ technologies = {
 			maximum_speed = 0.1
 			default_morale = 0.2
 		}
-		amphibious_mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-
 
 		path = {
 			leads_to_tech = mass_motorization
@@ -281,7 +276,16 @@ technologies = {
 	mass_motorization = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_all_infantry = {
+		infantry = {
+			max_organisation = 10
+		}
+		motorized = {
+			max_organisation = 10
+		}
+		mechanized = {
+			max_organisation = 10
+		}
+		amphibious_mechanized = {
 			max_organisation = 10
 		}
 
