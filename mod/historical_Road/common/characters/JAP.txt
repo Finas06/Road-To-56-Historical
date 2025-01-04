@@ -715,6 +715,25 @@ characters={
 			}
 		}
 		
+		advisor = {
+			slot = high_command
+			idea_token = JAP_hitoshi_imamura
+			ledger = army
+			allowed = {
+				original_tag = JAP
+			}
+			available = {
+				has_completed_focus = JAP_intervene_in_china
+			}
+			traits = {
+				army_commando_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+
 		corps_commander={
 			traits={ career_officer infantry_officer commando }
 			skill=3
