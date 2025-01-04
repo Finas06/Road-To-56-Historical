@@ -65,6 +65,17 @@ on_actions = {
 					}
 				}
 			}
+			SOV = { #hmm copy
+				country_event = {
+					id = mexico.21 # Mexico returns trotsky
+					days = 396 # Feb 37
+				}
+			}
+		}
+	}
+	on_capitulation = {
+		effect = {
+			rt56_comp_capitulation = yes
 		}
 	}
 }
