@@ -512,3 +512,56 @@ rt56_comp_show_div_templates = {
 		has_country_flag = hide_div_templates
 	}
 }
+rt56_comp_annexation = {
+	icon = generic_formable_nations
+	priority = 1000
+	visible = {
+		OR = {
+			AND = {
+				tag = ENG
+				OR = {
+					IRE = {
+					is_ai = yes
+					}
+					MAL = {
+						is_ai = yes
+					}
+				}
+			}
+			AND = {
+				tag = USA
+				OR = {
+					MEX = {
+						is_ai = yes
+					}
+					BRA = {
+						is_ai = yes
+					}
+				}
+			}
+			AND = {
+				tag = AST
+				NZL = {
+					is_ai = yes
+				}
+			}
+			AND = {
+				tag = ITA
+				BUL = {
+					is_ai = yes
+				}
+			}
+			AND = {
+				tag = JAP
+				OR = {
+					MAN = {
+						is_ai = yes
+					}
+					SIA = {
+						is_ai = yes
+					}
+				}
+			}
+		}
+	}
+}

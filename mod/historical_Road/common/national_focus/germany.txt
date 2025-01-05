@@ -10186,7 +10186,6 @@ focus_tree = {
 		
 		available = {
 			if = {
-				has_army_manpower = { size > 499999 }
 				date > 1937.4.1
 			}
 			
@@ -11164,7 +11163,6 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_army_manpower = { size > 724999 } #80 div
 		}
 		
 		cancel = {
@@ -11533,7 +11531,6 @@ focus_tree = {
 		available = { 
 			r56_script_i_am_sane = yes
 			is_subject = no
-			has_army_manpower = { size > 749999 }
 		}
 
 		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_HISTORICAL }
@@ -12150,11 +12147,6 @@ focus_tree = {
 		available = {
 			is_subject = no
 			is_faction_leader = yes
-			has_army_manpower = { size > 749999 }
-			custom_trigger_tooltip = {
-			 	tooltip = GER_second_vienna_award_eq_trigger_tt
-			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 60 }
-			}
 			has_capitulated = no
 
 			HUN = {
@@ -12859,9 +12851,6 @@ focus_tree = {
 			r56_script_i_am_sane = yes
 			is_subject = no
 			OR = {
-				has_army_manpower = {
-					size > 950000
-				}
 				AND = {
 					strength_ratio = {	#added rt56
 						tag = POL

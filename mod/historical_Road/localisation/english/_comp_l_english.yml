@@ -1,6 +1,9 @@
 ﻿#decisions
 l_english:
 rt56comp_decisions:0 "Division Templates"
+rt56_comp_annexation:0 "§4Country Annexation§!"
+rt56_comp_show_div_templates:0 "Show Free Templates"
+
 _RT56COMP_MA_Barb:0 "Mass Assault Infantry Barb"
 _RT56COMP_MA_ASIA:0 "Mass Assault Infantry Asia"
 _RT56COMP_GBP_Barb:0 "Standard Infantry Barb"
@@ -18,17 +21,25 @@ _RT56COMP_MEDIUM_TANK:0 "36 Width Medium Tank"
 _RT56COMP_MEDIUM_TANK_DESTROYER:0 "36 Width Medium Tank Destroyer"
 _RT56COMP_HEAVY_TANK:0 "36 Width Heavy Tank"
 _RT56COMP_HEAVY_TANK_DESTROYER:0 "36 Width Heavy Tank Destroyer"
-rt56_comp_show_div_templates:0 "Show Free Templates"
 show_div_templates:0 "Reenable Templates Category"
 hide_div_templates:0 "Disable Templates Category"
 
+annex_bra:0 "Integrate Brazil"
+annex_mex:0 "Integrate Mexico"
+annex_ire:0 "Integrate Ireland"
+annex_bul:0 "Integrate Bulgaria"
+annex_nzl:0 "Integrate New Zealand"
+annex_man:0 "Integrate Manchukuo"
+annex_sia:0 "Integrate Siam"
+annex_mal:0 "Integrate Malaya"
+
 #ideas
 rt56_comp_daily_xp:0 "Peacetime Training"
-rt56_comp_daily_xp_tt:0 "\n§RReplaces Onediv Training.§"
+rt56_comp_daily_xp_tt:0 "§RReplaces Onediv Training.§!"
 rt56_comp_allowvols:0 "Volunteer Force"
 
 #traits
-gets_purged:0 "\n§RWill die during the Great Purge!§"
+gets_purged:0 "§RWill die during the Great Purge!§!"
 gets_purged_desc:0 ""
 
 #gamerules
@@ -37,4 +48,4 @@ rt56_comp_vols_no:0 "Volunteers allowed"
 rt56_comp_vols_no_desc:0 "Keeps the Vanilla Volunteers Rules"
 rt56_comp_vols_yes_desc:0 "Disables all Volunteers"
 rt56comp_no_vols:0 "Volunteers"
-rt56comp:0 "§YHistorical Gamerules§"
+rt56comp:0 "§YHistorical Gamerules§!"

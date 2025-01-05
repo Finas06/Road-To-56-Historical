@@ -1,0 +1,182 @@
+rt56_comp_capitulation = {
+    if = { #YUGOSLAVIA
+        limit = {
+            original_tag = YUG
+            YUG = { 
+                has_war_with = ITA
+            }
+        }
+            BUL = {
+                transfer_state = 106
+                transfer_state = 950
+                transfer_state = 803
+            }
+            HUN = {
+                transfer_state =  45
+                transfer_state =  764
+            }
+            ITA = {
+                transfer_state = 102
+                transfer_state = 853
+                transfer_state = 956
+                transfer_state = 958
+                transfer_state = 109
+                transfer_state = 961
+                transfer_state = 959
+                transfer_state = 103
+                transfer_state = 804
+                transfer_state = 962
+                transfer_state = 952
+                transfer_state = 104
+                transfer_state = 107
+                transfer_state = 105
+                transfer_state = 963
+                transfer_state = 108
+                transfer_state = 953
+                transfer_state = 802
+            }
+            YUG = {
+                transfer_navy = {
+                    target = ITA
+                }
+            }
+            ITA = {
+                add_threat = 10
+            }
+    }
+    if = { #ETHIOPIA
+        limit = {
+            original_tag = ETH
+            ETH = {
+                has_war_with = ITA
+            }
+        }
+        ITA = {
+            annex_country = {
+                target = ETH
+                transfer_troops = no
+            }
+             add_threat = 5
+         }
+    }
+    if = { #CHINA
+        limit = {
+            original_tag = CHI
+            CHI = {
+                has_war_with = JAP
+            }
+        }
+         JAP = {
+            annex_country = {
+                target = CHI
+                transfer_troops = no
+            }
+            add_threat = 25
+            }
+            CHI = {
+                transfer_navy = {
+                    target = JAP
+                }
+            }
+    }
+    if = { #SOVIETS
+        limit = {
+            original_tag = SOV
+            GER = {
+                has_war_with = SOV
+            }
+        }
+        GER = {
+            annex_country = {
+                target = SOV
+            }
+        }
+    }
+    if = { #JAPAN
+        limit = {
+            original_tag = JAP
+            JAP = {
+                has_war_with = USA
+            }
+        }
+        USA= {
+            annex_country = {
+                target = JAP
+                transfer_troops = no
+            }
+            annex_country = {
+                target = MAN
+                transfer_troops = no
+            }
+            annex_country = {
+                target = SIA
+                transfer_troops = no
+            }
+        }
+        JAP = {
+            transfer_navy = {
+                target = USA
+            }
+        }
+    }
+    if = { #FINLAND WINTER WAR
+        limit = {
+            original_tag = FN
+            FIN = {
+                has_war_with = SOV
+            }
+            NOT = {
+                GER = {
+                    has_war_with = SOV
+                }
+            }
+        }
+        SOV = {
+            transfer_state = 146
+            transfer_state = 147
+            add_threat = 6
+        }
+    }
+    if = { #GREECE
+        limit = {
+            original_tag = GRE
+            OR = {
+                has_war_with = ITA
+                has_war_with = BUL
+            }
+        }
+        ITA = {
+            transfer_state = 182
+            transfer_state = 187
+            add_threat = 10
+        }
+        if = {
+            limit = {
+                BUL = {
+                    exists = yes
+                }
+            }
+            BUL = {
+            transfer_state = 186
+            transfer_state = 185
+            transfer_state = 47
+            transfer_state = 731
+            transfer_state = 184
+            }
+        }
+        else = {
+            ITA = {
+            transfer_state = 186
+            transfer_state = 185
+            transfer_state = 47
+            transfer_state = 731
+            transfer_state = 184
+            }
+        }
+        GRE = {
+            transfer_navy = {
+                target = ITA
+            }
+        }
+    }
+}
