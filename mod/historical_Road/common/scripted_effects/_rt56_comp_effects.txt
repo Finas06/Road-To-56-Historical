@@ -119,4 +119,48 @@ rt56_comp_capitulation = {
             }
         }
     }
+    if = { #FINLAND WINTER WAR
+        limit = {
+            original_tag = FN
+            FIN = {
+                has_war_with = SOV
+            }
+            NOT = {
+                GER = {
+                    has_war_with = SOV
+                }
+            }
+        }
+        SOV = {
+            transfer_state = 146
+            transfer_state = 147
+            add_threat = 6
+        }
+    }
+    if = { #GREECE
+        limit = {
+            original_tag = GRE
+            OR = {
+                has_war_with = ITA
+                has_war_with = BUL
+            }
+        }
+        ITA = {
+            transfer_state = 182
+            transfer_state = 187
+            add_threat = 10
+        }
+        BUL = {
+            transfer_state = 186
+            transfer_state = 185
+            transfer_state = 47
+            transfer_state = 731
+            transfer_state = 184
+        }
+        GRE = {
+            transfer_navy = {
+                target = ITA
+            }
+        }
+    }
 }
