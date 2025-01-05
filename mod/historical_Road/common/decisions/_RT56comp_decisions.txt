@@ -366,10 +366,8 @@ rt56_comp_annexation = {
 			tag = JAP
 		}
 		available = {
-			NOT = {
-				CHI = {
-					exists = no
-				}
+			CHI = {
+				exists = no
 			}
 			SIA = {
 				is_ai = yes
