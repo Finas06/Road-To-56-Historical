@@ -35,11 +35,11 @@ annex_mal:0 "Integrate Malaya"
 
 #ideas
 rt56_comp_daily_xp:0 "Peacetime Training"
-rt56_comp_daily_xp_tt:0 "\n§RReplaces Onediv Training.§!"
+rt56_comp_daily_xp_tt:0 "§RReplaces Onediv Training.§!"
 rt56_comp_allowvols:0 "Volunteer Force"
 
 #traits
-gets_purged:0 "\n§RWill die during the Great Purge!§!"
+gets_purged:0 "§RWill die during the Great Purge!§!"
 gets_purged_desc:0 ""
 
 #gamerules
