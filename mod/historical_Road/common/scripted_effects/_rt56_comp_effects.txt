@@ -150,12 +150,28 @@ rt56_comp_capitulation = {
             transfer_state = 187
             add_threat = 10
         }
-        BUL = {
+        if = {
+            limit = {
+                BUL = {
+                    exists = yes
+                }
+            }
+            BUL = {
             transfer_state = 186
             transfer_state = 185
             transfer_state = 47
             transfer_state = 731
             transfer_state = 184
+            }
+        }
+        else = {
+            ITA = {
+            transfer_state = 186
+            transfer_state = 185
+            transfer_state = 47
+            transfer_state = 731
+            transfer_state = 184
+        }
         }
         GRE = {
             transfer_navy = {
