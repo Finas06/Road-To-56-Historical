@@ -171,7 +171,7 @@ rt56_comp_capitulation = {
             transfer_state = 47
             transfer_state = 731
             transfer_state = 184
-        }
+            }
         }
         GRE = {
             transfer_navy = {
