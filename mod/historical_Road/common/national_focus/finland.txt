@@ -6861,7 +6861,9 @@ focus_tree = {
 		id = FIN_viron_kansa
 		icon = GFX_focus_FIN_viron_kansa
 		prerequisite = { focus = FIN_national_unity }
-
+		allow_branch = {
+			always = no
+		}
 		x = -1
 		y = 2
 		relative_position_id = FIN_national_unity
