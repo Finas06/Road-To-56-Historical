@@ -106,24 +106,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 30 y = 1205 }
-					textureFile = ""
-					font = "hoi_33"
-					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_SPECIAL"
-					maxWidth = 600
-					maxHeight = 62
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "r56_infantry_subtitle_climate_specific_equipment"
 					position = { x = 30 y = 600 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "CLIMATE SPECIFIC EQUIPMENT"
+					text = "INFANTRY_TITLE_SPECIAL"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -391,9 +378,9 @@ guiTypes = {
 
 			}
 
-			gridboxtype = { #Jaegers
-				name = "winter_clothes_gw_tree"
-				position = { x = 140 y = 230 }
+			gridboxtype = {
+				name = "jaegers_tree"
+				position = { x = 140 y = 210 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -407,14 +394,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "shocktroops_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = -50  }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = -40 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -422,14 +409,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = -40 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
 			gridboxtype = {
 				name = "paratroopers_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = -40 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

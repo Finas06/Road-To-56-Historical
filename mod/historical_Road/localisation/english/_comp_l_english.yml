@@ -39,7 +39,7 @@ rt56_comp_daily_xp_tt:0 "§RReplaces Onediv Training.§!"
 rt56_comp_allowvols:0 "Volunteer Force"
 rt56_comp_attacked_yugo_flag:0 "§YHas completed focus Claims on Yugoslavia:§!"
 rt56_comp_attacked_greece_flag:0 "§YHas completed focus War with Greece:§!"
-
+spanish_units:0 "Spanish Volunteer Force"
 
 #traits
 gets_purged:0 "§RWill die during the Great Purge!§!"
@@ -63,3 +63,5 @@ rt56_comp_ita_gre_owned_states:0 "Adds §Y60%§! §GCompliance§! and §Y15%§! 
 ITA_compliance_yugoslavia_desc:0 "After our recent success in asserting our dominance over the false state construct known as 'Yugoslavia', many local slavs have accepted their fate under the new Italian rule. With this, many once strong resistence groups have been disbanded, as we solidify our control over the region."
 ITA_compliance_greece_desc:0 "Following the invasion of Greece, many primarily Greek regions have fallen under our control. To achieve a stronger bond between Italians and Greeks, El Duce has ordered the propagation of a united Greek and Italian dominated New Roman Empire. Many locals, proud of their ancestory, accept our cause as a jointed multicultural Empire that takes upon the mantle of the Nova Roma."
 ITA_rt56_comp_dynamic_cp_change:0 "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \nMaximum Command Power Increase Multiplier: §G+35.00%§! \n\n"
+spa_rt56_comp_axis_vols_tt:0 "Allows our entire Army to fight for the Axis, without being forced to join the war.\n§RIncreases cost of Special Forces and Infantry!§!\n§GIncreases our Special Forces limit drasticly!§!"
+spanish_units_desc:0 ""

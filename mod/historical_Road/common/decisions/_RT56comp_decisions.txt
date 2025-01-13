@@ -2,7 +2,7 @@ rt56comp_decisions = {
 	_RT56COMP_MA_Barb = {
 		icon = generic_prepare_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -18,7 +18,7 @@ rt56comp_decisions = {
 	_RT56COMP_MA_ASIA = {
 		icon = generic_prepare_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -34,7 +34,7 @@ rt56comp_decisions = {
 	_RT56COMP_GBP_Barb = {
 		icon = generic_prepare_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = true
@@ -50,7 +50,7 @@ rt56comp_decisions = {
 	_RT56COMP_MA_PORT = {
 		icon = generic_prepare_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -66,7 +66,7 @@ rt56comp_decisions = {
 	_RT56COMP_PORT = {
 		icon = generic_prepare_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -82,7 +82,7 @@ rt56comp_decisions = {
 	_RT56COMP_MOUNTAINEER = {
 		icon = generic_intelligence_operation
 		allowed = {
-			is_playable_country = yes
+			ROOT = {
 		}
 		visible = {
 			always = yes
@@ -98,7 +98,8 @@ rt56comp_decisions = {
 	_RT56COMP_AT_MOUNTAINEER = {
 		icon = generic_intelligence_operation
 		allowed = {
-			is_playable_country = yes
+			ROOT = {
+   is_ai = no
 		}
 		visible = {
 			always = yes
@@ -114,7 +115,7 @@ rt56comp_decisions = {
 	_RT56COMP_MARINE = {
 		icon = generic_intelligence_operation
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -130,7 +131,7 @@ rt56comp_decisions = {
 	_RT56COMP_LARGE_MARINE = {
 		icon = generic_intelligence_operation
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -146,7 +147,7 @@ rt56comp_decisions = {
 	_RT56COMP_MEDIUM_TANK = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -162,7 +163,7 @@ rt56comp_decisions = {
 	_RT56COMP_MEDIUM_TANK_DESTROYER = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -178,7 +179,7 @@ rt56comp_decisions = {
 	_RT56COMP_HEAVY_TANK = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -194,7 +195,7 @@ rt56comp_decisions = {
 	_RT56COMP_HEAVY_TANK_DESTROYER = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -210,7 +211,7 @@ rt56comp_decisions = {
 	_RT56COMP_MW_MEDIUM_TANK = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -226,7 +227,7 @@ rt56comp_decisions = {
 	_RT56COMP_MW_MEDIUM_TANK_DESTROYER = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -242,7 +243,7 @@ rt56comp_decisions = {
 	_RT56COMP_MW_HEAVY_TANK = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -258,7 +259,7 @@ rt56comp_decisions = {
 	_RT56COMP_MW_HEAVY_TANK_DESTROYER = {
 		icon = generic_tank
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -274,7 +275,7 @@ rt56comp_decisions = {
 	hide_div_templates = {
 		icon = generic_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -292,7 +293,7 @@ rt56_comp_show_div_templates = {
 	show_div_templates = {
 		icon = generic_civil_war
 		allowed = {
-			is_playable_country = yes
+			always = yes
 		}
 		visible = {
 			always = yes
