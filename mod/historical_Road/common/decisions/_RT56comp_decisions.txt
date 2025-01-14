@@ -82,7 +82,7 @@ rt56comp_decisions = {
 	_RT56COMP_MOUNTAINEER = {
 		icon = generic_intelligence_operation
 		allowed = {
-			ROOT = {
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -98,8 +98,7 @@ rt56comp_decisions = {
 	_RT56COMP_AT_MOUNTAINEER = {
 		icon = generic_intelligence_operation
 		allowed = {
-			ROOT = {
-   is_ai = no
+			always = yes
 		}
 		visible = {
 			always = yes
@@ -498,6 +497,190 @@ rt56_comp_annexation = {
 					tranfer_troops = yes
 					transfer_navy = yes
 				}
+			}
+		}
+	}
+}
+rt56_comp_winter_war = {
+	winter_war_ongoing_mission = {
+		activation = {
+			 any_country = {
+				has_country_flag = rt56_comp_winter_war_decisions_active
+			}
+		}
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+			FIN = {
+				NOT = {
+					has_war_with = SOV
+				}
+			}
+		}
+		custom_effect_tooltip = desc_winter_war
+		is_good = yes
+		days_mission_timeout = 120
+		timeout_effect = { #Finland Wins
+			if = {
+				limit = {
+					FIN = {
+						controls_province = 3151 #Leningrad
+						controls_province = 11105 #Helsinki
+						controls_province = 9206 #Viipuri
+					}
+				}
+				SOV = {
+					add_timed_idea = {
+						idea = rt56_comp_sov_reparations_winter_war
+						days = 90
+					}
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				FIN = {
+					add_manpower = 75000
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				custom_effect_tooltip = rt56_comp_finnish_victory
+			}
+			else_if = {
+				limit = {
+					AND = {
+						FIN = {
+							controls_province = 11105 #Helsinki
+						}
+						OR = {
+							FIN = {
+								casualties < 50000
+							}
+							FIN = {
+								controls_province = 9206 #Viipuri
+							}
+						}
+					}
+				}
+				SOV = {
+					transfer_state = 146 #Karjala
+					transfer_state = 722 #Petsamo
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				FIN = {
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+					add_manpower = 50000
+				}
+				custom_effect_tooltip = rt56_comp_slight_finnish_victory
+			}
+			else = {
+				SOV = {
+					transfer_state = 146 #Karjala
+					transfer_state = 722 #Petsamo
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				FIN = {
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				custom_effect_tooltip = rt56_comp_soviet_victory
+			}
+		}
+		complete_effect = { #SOV wins
+			hidden_effect = {
+				SOV = {
+					transfer_state = 146 #Karjala
+					transfer_state = 722 #Petsamo
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				FIN = {
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+			}
+		}
+		cancel_effect = { #Same as complete
+			hidden_effect = {
+				SOV = {
+					transfer_state = 146 #Karjala
+					transfer_state = 722 #Petsamo
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				FIN = {
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+			}
+		}
+	}
+	rt56_comp_SOV_winter_war_capitulation = {
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			SOV = {
+				add_timed_idea = {
+					idea = rt56_comp_sov_reparations_winter_war
+					days = 90
+				}
+				clr_country_flag = rt56_comp_winter_war_decisions_active
+				hidden_effect = {
+					remove_mission = winter_war_ongoing_mission
+				}
+			}
+			FIN = {
+				add_manpower = 75000
+				clr_country_flag = rt56_comp_winter_war_decisions_active
+				hidden_effect = {
+				remove_mission = winter_war_ongoing_mission
+				}
+			}
+			FIN = {
+				white_peace = {
+					tag = SOV
+					message = rt56_comp_whitepeace_fin_victory_tt
+				}
+			}
+			
+			custom_effect_tooltip = rt56_comp_winter_war_capitulation_tt
+		}
+	}
+	rt56_comp_FIN_winter_war_capitulation = {
+		allowed = {
+			original_tag = FIN
+		}
+		visible = {
+			always = yes
+		}
+		complete_effect = {
+			hidden_effect = {
+				FIN = {
+					white_peace = {
+						tag = SOV
+						message = rt56_comp_whitepeace_tt
+					}
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+				SOV = {
+					clr_country_flag = rt56_comp_winter_war_decisions_active
+				}
+			}
+			custom_effect_tooltip = rt56_comp_winter_war_capitulation_tt
+		}
+	}
+	rt56_comp_FIN_winter_war_demand_sov_surrender = {
+		allowed = {
+			original_tag = FIN
+		}
+		visible = {
+			always = yes
+		}
+		available = {
+			FIN = {
+				controls_province = 3151
+			}
+		}
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = winter_war_ongoing_mission
+				days = -90
 			}
 		}
 	}

@@ -34,5 +34,11 @@ Ideas = {
 				send_volunteers_tension = -1
 			} 
 		}
+		rt56_comp_sov_reparations_winter_war = {
+			picture = generic_economy
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
 	}
 }

@@ -13,6 +13,6 @@ FIN_the_winter_war_category = {
 	}
 
 	visible = {
-		has_idea = winter_war_ns
+		always = no
 	}
 }

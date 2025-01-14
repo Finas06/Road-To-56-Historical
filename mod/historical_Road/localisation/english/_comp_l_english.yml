@@ -3,6 +3,8 @@ l_english:
 rt56comp_decisions:0 "Division Templates"
 rt56_comp_annexation:0 "§4Country Annexation§!"
 rt56_comp_show_div_templates:0 "Show Free Templates"
+rt56_comp_winter_war:0 "Winter War"
+rt56_comp_winter_war_desc:0 "§2Victory conditions for the Winter War§!\nThe Winner is decided upon Mission timeout or when Finland choses to manually surrender.\n\n§WFinnish Victory:§!\n§WFinland§! controls §RLeningrad§! §gViipuri Helsinki§!\n\n§WPartial Finnish Victory:§!\n§WFinland§! controls §gHelsinki§! and has either §RLess than 50.000 Casualties§! or holds §gViipuri§!\n\n§RSoviet Victory:§!\n§WFinland§! does not meet any of both conditions or surrenders early"
 
 _RT56COMP_MA_Barb:0 "Mass Assault Infantry Barb"
 _RT56COMP_MA_ASIA:0 "Mass Assault Infantry Asia"
@@ -33,6 +35,10 @@ annex_man:0 "Integrate Manchukuo"
 annex_sia:0 "Integrate Siam"
 annex_mal:0 "Integrate Malaya"
 
+winter_war_ongoing_mission:0 "Days until peace is signed"
+rt56_comp_SOV_winter_war_capitulation:0 "Seize our offensives"
+rt56_comp_FIN_winter_war_capitulation:0 "Accept Soviet demands"
+
 #ideas
 rt56_comp_daily_xp:0 "Peacetime Training"
 rt56_comp_daily_xp_tt:0 "§RReplaces Onediv Training.§!"
@@ -40,6 +46,7 @@ rt56_comp_allowvols:0 "Volunteer Force"
 rt56_comp_attacked_yugo_flag:0 "§YHas completed focus Claims on Yugoslavia:§!"
 rt56_comp_attacked_greece_flag:0 "§YHas completed focus War with Greece:§!"
 spanish_units:0 "Spanish Volunteer Force"
+rt56_comp_sov_reparations_winter_war:0 "Winter War reparations"
 
 #traits
 gets_purged:0 "§RWill die during the Great Purge!§!"
@@ -65,3 +72,9 @@ ITA_compliance_greece_desc:0 "Following the invasion of Greece, many primarily G
 ITA_rt56_comp_dynamic_cp_change:0 "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \nMaximum Command Power Increase Multiplier: §G+35.00%§! \n\n"
 spa_rt56_comp_axis_vols_tt:0 "Allows our entire Army to fight for the Axis, without being forced to join the war.\n§RIncreases cost of Special Forces and Infantry!§!\n§GIncreases our Special Forces limit drasticly!§!"
 spanish_units_desc:0 ""
+rt56_comp_winter_war_capitulation_tt:0 "§RThe War will end in one day!§!"
+rt56_comp_whitepeace_tt:0 "§4Finland has given in to Stalin's demands!§!"
+rt56_comp_whitepeace_fin_victory_tt:0 "§4Finland has successfully fended of the invasion!§!"
+rt56_comp_finnish_victory:0 "§tFinnish Victory!§!"
+rt56_comp_slight_finnish_victory:0 "§tPartial finnish Victory!§!"
+rt56_comp_soviet_victory:0 "§tSoviet Victory!§!"
