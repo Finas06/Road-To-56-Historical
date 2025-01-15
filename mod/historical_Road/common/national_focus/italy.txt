@@ -1095,6 +1095,10 @@ focus_tree = {
 						instant_build = yes
 					}
 					add_extra_state_shared_building_slots = 1
+					add_resource = {
+						type = rubber
+						amount = 7
+					}
 					set_state_flag = ITA_improved_infrastructure_in_state_flag
 				}
 			}
@@ -1180,6 +1184,10 @@ focus_tree = {
 						instant_build = yes
 					}
 					add_extra_state_shared_building_slots = 1
+					add_resource = {
+						type = rubber
+						amount = 13
+					}
 					set_state_flag = ITA_improved_infrastructure_in_state_flag
 				}
 			}
@@ -1267,6 +1275,10 @@ focus_tree = {
 						instant_build = yes
 					}
 					add_extra_state_shared_building_slots = 1
+					add_resource = {
+						type = rubber
+						amount = 20
+					}
 					set_state_flag = ITA_improved_infrastructure_in_state_flag
 				}
 			}
@@ -3295,10 +3307,10 @@ focus_tree = {
 				category = cat_synth_oil
 			}
 			2 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
-					type = synthetic_refinery
-					level = 1
+					type = rubber_refinery
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -4037,7 +4049,8 @@ focus_tree = {
 
 		completion_reward = {
 			army_experience = 25
-
+			add_to_variable = { ITA_re_max_command_power_mult = 0.35 }
+			custom_effect_tooltip = ITA_rt56_comp_dynamic_cp_change
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = ROOT
@@ -15766,6 +15779,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			set_country_flag = rt56_comp_attacked_yugo_flag
 			add_state_claim = 102 #NORTH SLOVENIA
 			add_state_claim = 853 #LJUBLJANA
 			add_state_claim = 958 #KVARNER
@@ -16133,6 +16147,73 @@ focus_tree = {
 					}
 				}
 			}
+		}
+	}
+	
+	focus = {
+		id = ITA_compliance_yugoslavia
+		icon = GFX_focus_YUG_greater_yugoslavia
+		x = 2
+		y = 0
+		relative_position_id = ITA_albanian_occupation
+		cost = 5
+		available = {
+			has_country_flag = {
+				flag = rt56_comp_attacked_yugo_flag
+				days < 120
+			}
+			hidden = {
+				NOT = {
+					country_exists = YUG
+				}
+			}
+		}
+		completion_reward = {
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = YUG
+						is_owned_by = ITA
+					}
+					add_compliance = 40
+					add_resistance = -10
+				}
+			}
+			clr_country_flag = rt56_comp_attacked_yugo_flag
+			custom_effect_tooltip = rt56_comp_ita_yugo_owned_states
+		}
+	}
+	focus = {
+		id = ITA_compliance_greece
+		icon = GFX_focus_GRE_greek_militarism
+		x = 4
+		y = 0
+		relative_position_id = ITA_albanian_occupation
+		cost = 5
+		available = {
+			has_country_flag = {
+				flag = rt56_comp_attacked_greece_flag
+				days < 90
+			}
+			hidden = {
+				NOT = {
+					country_exists = GRE
+				}
+			}
+		}
+		completion_reward = {
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = GRE
+						is_owned_by = ITA
+					}
+					add_compliance = 60
+					add_resistance = 15
+				}
+			}
+			clr_country_flag = rt56_comp_attacked_greece_flag
+			custom_effect_tooltip = rt56_comp_ita_gre_owned_states
 		}
 	}
 
@@ -18043,7 +18124,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_italian_irredentism }
 		mutually_exclusive = { focus = ITA_befriend_greece }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = ITA_italian_irredentism
 		cost = 2
 		available = {
@@ -18136,6 +18217,7 @@ focus_tree = {
 		will_lead_to_war_with = GRE
 
 		completion_reward = {
+			set_country_flag = rt56_comp_attacked_greece_flag
 			every_state = {	#don't claim all territory of Greece, only strategic areas! - Fantom
 				limit = {
 					OR = {

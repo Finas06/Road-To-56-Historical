@@ -2938,52 +2938,13 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		completion_reward = {
-			if = {
-				limit = {
-					GER = {
-						has_government = fascism
-						is_faction_leader = yes
-						has_capitulated = no
-						NOT = { has_war_with = ROOT }
-						exists = yes
-					}
-					NOT = {
-						any_other_country = {
-							is_in_faction_with = GER
-							has_war_with = ROOT
-						}
-					}					
-				}
-				GER = {
-					country_event = generic.2
-				}
+			hidden = {
+				add_ideas = spa_rt56_comp_axis_vols
 			}
-			else_if = {
-				limit = {
-					ITA = {
-						has_government = fascism
-						is_faction_leader = yes
-						has_capitulated = no
-						NOT = { has_war_with = ROOT }
-						exists = yes
-					}
-					NOT = {
-						any_other_country = {
-							is_in_faction_with = ITA
-							has_war_with = ROOT
-						}
-					}					
-				}
-				ITA = {
-					country_event = generic.2
-				}
-			}			
-			else = {
-				get_best_alliance_match_fascism_effect = yes
-				var:best_leader = {
-					country_event = generic.2
-				}
-			}			
+			set_technology = {
+					spanish_units = 1
+			}
+			custom_effect_tooltip = spa_rt56_comp_axis_vols_tt
 		}
 		search_filters = { FOCUS_FILTER_ALLIANCE }
 	}
@@ -2991,11 +2952,6 @@ focus_tree = {
 	focus = {
 		id = SPA_fascist_economic_aid
 		available = {
-			any_country = {
-				is_in_faction_with = ROOT
-				has_government = fascism
-				is_major = yes
-			}
 		}
 		prerequisite = { focus = SPA_join_the_axis focus = SPA_ally_the_french }
 		prerequisite = { focus = SPA_national_recovery }
@@ -3033,11 +2989,6 @@ focus_tree = {
 			has_full_control_of_state = 176
 			has_full_control_of_state = 792
 			has_full_control_of_state = 41
-			any_country = {
-				is_in_faction_with = ROOT
-				has_government = fascism
-				is_major = yes
-			}
 		}
 		prerequisite = { focus = SPA_fascist_economic_aid }
 		
@@ -3116,12 +3067,6 @@ focus_tree = {
 	focus = {
 		id = SPA_improve_cross_country_railways
 		available = {
-			any_country = {
-				is_in_faction_with = ROOT
-				has_government = fascism
-				is_major = yes
-			}
-
 			has_full_control_of_state = 169
 			has_full_control_of_state = 789
 			has_full_control_of_state = 175
@@ -3161,11 +3106,6 @@ focus_tree = {
 	focus = {
 		id = SPA_support_the_war_industry
 		available = {
-			any_country = {
-				is_in_faction_with = ROOT
-				has_government = fascism
-				is_major = yes
-			}
 		}
 		prerequisite = { focus = SPA_facilitate_pyrenees_freight_transports }
 		prerequisite = { focus = SPA_improve_cross_country_railways }
@@ -3254,6 +3194,9 @@ focus_tree = {
 		available = {
 			is_in_faction_with = ITA
 		}
+		allow_branch = {
+			always = no
+		}
 		prerequisite = { focus = SPA_support_the_war_industry }
 		
 		icon = GFX_focus_generic_navy_battleship2
@@ -3278,11 +3221,6 @@ focus_tree = {
 	focus = {
 		id = SPA_the_duty_to_work
 		available = {
-			any_country = {
-				is_in_faction_with = ROOT
-				has_government = fascism
-				is_major = yes
-			}
 		}
 		prerequisite = { focus = SPA_support_the_war_industry }
 		
@@ -3302,11 +3240,6 @@ focus_tree = {
 	focus = {
 		id = SPA_expand_the_war_industry
 		available = {
-			any_country = {
-				is_in_faction_with = ROOT
-				has_government = fascism
-				is_major = yes
-			}
 		}
 		prerequisite = { focus = SPA_support_the_war_industry focus = SPA_expand_the_axis_gold_trade }
 		

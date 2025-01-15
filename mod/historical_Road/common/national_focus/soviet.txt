@@ -18493,7 +18493,7 @@ focus_tree = {
 			add_ideas = SOV_siberian_forest_soldiers_idea
 			set_technology = {
 				jaegers = 1
-				winter_clothes_gw = 1
+				
 			}
 			add_tech_bonus = {
 				name = SOV_siberian_forest_soldiers_focus

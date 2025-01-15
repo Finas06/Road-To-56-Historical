@@ -1219,7 +1219,7 @@ focus_tree = {
 					}
 				}
 				set_technology = {
-					winter_clothes_gw = 1
+					
 				}				
 			}
 			add_ideas = NOR_winter_training
