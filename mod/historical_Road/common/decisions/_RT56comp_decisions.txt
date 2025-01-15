@@ -521,9 +521,12 @@ rt56_comp_winter_war = {
 		custom_effect_tooltip = desc_winter_war
 		is_good = yes
 		days_mission_timeout = 120
-		timeout_effect = { #Finland Wins
+		timeout_effect = {
+			FIN = {
+				white_peace = SOV
+			}
 			if = {
-				limit = {
+				limit = {#Finland Wins
 					FIN = {
 						controls_province = 3151 #Leningrad
 						controls_province = 11105 #Helsinki
@@ -544,7 +547,7 @@ rt56_comp_winter_war = {
 				custom_effect_tooltip = rt56_comp_finnish_victory
 			}
 			else_if = {
-				limit = {
+				limit = {#Partial Finland Victory
 					AND = {
 						FIN = {
 							controls_province = 11105 #Helsinki
@@ -571,7 +574,7 @@ rt56_comp_winter_war = {
 				custom_effect_tooltip = rt56_comp_slight_finnish_victory
 			}
 			else = {
-				SOV = {
+				SOV = {#Soviet Victory
 					transfer_state = 146 #Karjala
 					transfer_state = 147 #Sala
 					clr_country_flag = rt56_comp_winter_war_decisions_active

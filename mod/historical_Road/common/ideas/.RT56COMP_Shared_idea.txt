@@ -35,7 +35,7 @@ Ideas = {
 			} 
 		}
 		rt56_comp_sov_reparations_winter_war = {
-			picture = generic_economy
+			picture = chi_hyper_inflation
 			modifier = {
 				consumer_goods_factor = 0.2
 			}
