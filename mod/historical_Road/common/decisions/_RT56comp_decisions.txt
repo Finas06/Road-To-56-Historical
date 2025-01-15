@@ -561,7 +561,7 @@ rt56_comp_winter_war = {
 				}
 				SOV = {
 					transfer_state = 146 #Karjala
-					transfer_state = 722 #Petsamo
+					transfer_state = 147 #Sala
 					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
@@ -573,7 +573,7 @@ rt56_comp_winter_war = {
 			else = {
 				SOV = {
 					transfer_state = 146 #Karjala
-					transfer_state = 722 #Petsamo
+					transfer_state = 147 #Sala
 					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
@@ -586,7 +586,7 @@ rt56_comp_winter_war = {
 			hidden_effect = {
 				SOV = {
 					transfer_state = 146 #Karjala
-					transfer_state = 722 #Petsamo
+					transfer_state = 148 #Sala
 					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
@@ -598,7 +598,7 @@ rt56_comp_winter_war = {
 			hidden_effect = {
 				SOV = {
 					transfer_state = 146 #Karjala
-					transfer_state = 722 #Petsamo
+					transfer_state = 147 #Sala
 					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
@@ -681,6 +681,19 @@ rt56_comp_winter_war = {
 			add_days_mission_timeout = {
 				mission = winter_war_ongoing_mission
 				days = -90
+			}
+		}
+	}
+	rt56_comp_winter_war_event = {
+		available = {
+			always = yes  
+		}
+		fire_only_once = no
+		complete_effect = {
+			ROOT = {
+				country_event = {
+					id = rt56_comp_winter_war_conditions.0
+				}
 			}
 		}
 	}
