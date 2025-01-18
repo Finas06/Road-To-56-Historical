@@ -3147,9 +3147,9 @@ ideas = {
 
 			modifier = {
 				command_abilities_cost_factor = 0.1
-				land_doctrine_cost_factor = 0.2
-				naval_doctrine_cost_factor = 0.2
-				air_doctrine_cost_factor = 0.2
+				land_doctrine_cost_factor = 0.05
+				naval_doctrine_cost_factor = 0.05
+				air_doctrine_cost_factor = 0.05
 				specialization_land_speed_factor = -0.20
 				sp_tag_aircraft_speed_factor = -0.20
 				specialization_naval_speed_factor = -0.20

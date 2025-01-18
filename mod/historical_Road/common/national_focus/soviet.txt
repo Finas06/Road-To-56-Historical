@@ -16133,14 +16133,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			FIN = { #Winter war conditions
+				set_country_flag = rt56_comp_winter_war_decisions_active
+			}
 			add_state_claim = 146 # Karjala
-			146 = {
-				controller = {
-					add_timed_idea = {
-						idea = communist_pressure
-						days = 365
-					}
-					country_event = { id = finland.1 hours = 16 random_hours = 8 }
+			SOV = {
+				declare_war_on = {
+					target = FIN
+					type = annex_everything
 				}
 			}
 		}

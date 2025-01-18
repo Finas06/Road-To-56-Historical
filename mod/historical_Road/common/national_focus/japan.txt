@@ -1998,13 +1998,6 @@ focus_tree = {
 			factor = 2
 		}
 
-		bypass = {
-			OR = {
-				has_non_aggression_pact_with = SOV
-				has_war_with = SOV
-			}
-		}
-
 		completion_reward = {
 			SOV = { country_event = { id = wtt_japan.11 } }
 			unlock_decision_tooltip = develop_north_sakhalin_oil_deposits
@@ -2481,9 +2474,31 @@ focus_tree = {
 					type = annex_everything
 				}
 			}
-			ENG = {
+			hidden_effect = {
+				ENG = {
 				add_to_faction = USA
-		}
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = JAP
+					}
+					add_to_war = {
+						targeted_alliance = JAP
+						enemy = USA
+						hostility_reason = asked_to_join
+					}
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = ENG
+					}
+					add_to_war = {
+						targeted_alliance = USA
+						enemy = JAP
+						hostility_reason = asked_to_join
+					}
+				}
+			}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ANNEXATION }
 		}
 	}

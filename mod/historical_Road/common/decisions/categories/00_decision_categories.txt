@@ -576,7 +576,7 @@ rt56_comp_winter_war = {
 		}
 	}
 	visible = {
-		any_country = {
+		FIN = {
 			has_country_flag = rt56_comp_winter_war_decisions_active
 		}
 	}

@@ -15968,7 +15968,9 @@ focus_tree = {
 		y = 0
 		relative_position_id = ITA_albanian_occupation
 		cost = 3
-
+		allow_branch = {
+			always = no
+		}
 		ai_will_do = {
 			factor = 5
 		}

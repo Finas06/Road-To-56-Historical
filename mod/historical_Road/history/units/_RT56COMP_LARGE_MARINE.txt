@@ -12,14 +12,13 @@ division_template = {
 		marine = { x = 1 y = 3 }
         marine = { x = 2 y = 0 }
 		marine = { x = 2 y = 1 }
-		marine = { x = 2 y = 2 }
-		marine = { x = 2 y = 3 }
-		marine = { x = 3 y = 0 }
-		marine = { x = 3 y = 1 }
-		marine = { x = 3 y = 2 }
-		anti_tank_brigade = { x = 3 y = 3 }
-		mechanized = { x = 4 y = 0 }
-		mechanized = { x = 4 y = 1 }
+		mountaineers = { x = 3 y = 0 }
+		mountaineers = { x = 3 y = 1 }
+		mountaineers = { x = 3 y = 2 }
+		mountaineers = { x = 3 y = 3 }
+		mountaineers = { x = 4 y = 0 }
+		mountaineers = { x = 4 y = 1 }
+		mountaineers = { x y 4 y = 2 }
 	}
 	
 	support = {
