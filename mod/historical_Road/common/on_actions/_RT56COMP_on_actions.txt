@@ -132,22 +132,4 @@ on_actions = {
             }
         }
     }
-	on_declare_war = {
-		effect = {
-			if = {
-				limit = {
-					tag = SOV
-					FROM = {
-						tag = SOV
-					}
-				}
-			}
-			FIN = {
-				set_country_flag = rt56_comp_winter_war_decisions_active
-			}
-			SOV = {
-				set_country_flag = rt56_comp_winter_war_decisions_active
-			}
-		}
-	}
 }

@@ -98,7 +98,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 197 # Salla #was independent brigade template
+		location = 11105 #Rt56comp Moved so its not in impassible region
 		division_template = "Jääkäriprikaati"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3

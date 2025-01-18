@@ -40,5 +40,19 @@ Ideas = {
 				consumer_goods_factor = 0.2
 			}
 		}
+		spa_rt56_comp_axis_vols = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 1000
+				send_volunteers_tension = -1
+				special_forces_cap_flat = 10000
+			} 
+		}
 	}
 }

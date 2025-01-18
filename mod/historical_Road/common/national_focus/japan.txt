@@ -1998,13 +1998,6 @@ focus_tree = {
 			factor = 2
 		}
 
-		bypass = {
-			OR = {
-				has_non_aggression_pact_with = SOV
-				has_war_with = SOV
-			}
-		}
-
 		completion_reward = {
 			SOV = { country_event = { id = wtt_japan.11 } }
 			unlock_decision_tooltip = develop_north_sakhalin_oil_deposits

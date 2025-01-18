@@ -2938,7 +2938,7 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		completion_reward = {
-			hidden = {
+			hidden_effect = {
 				add_ideas = spa_rt56_comp_axis_vols
 			}
 			set_technology = {

@@ -450,7 +450,7 @@ AIR_TITLE_TRANSPORT:0 "Transport"
 
 ###------> Jaeger   <><> <><> <><> <><> <><>
  jaeger:0"Jaeger Infantry"
- jaeger_desc:0"Jaegers are forces that specialize in surviving the cold and the wilderness of the boreal forest. Usually, these troops are native to their territory and take longer to train.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
+ jaeger_desc:0"Jaegers are forces that specialize in surviving the cold and the wilderness of the boreal forest. Usually, these troops are native to their territory and take longer to train."
 
  jungletroop:0"Jungle Infantry"
  jungletroop_desc:0"Jungle Specialists are trained to sustain the harsh conditions of Jungle Warfare and challenge the Enemy on their terms.\n \n§GThis unit type does not count toward the Special Forces cap but instead requires 5 Support Equipment per Battalion§!"
