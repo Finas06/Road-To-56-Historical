@@ -5630,6 +5630,9 @@ focus_tree = {
 		y = 1
 		relative_position_id = FIN_moderate_politics
 		cost = 5
+		allow_branch = {
+			always = no
+		}
 		available = {
 			is_subject = no
 			threat > 0.5
@@ -5751,7 +5754,7 @@ focus_tree = {
 		icon = GFX_focus_FIN_the_lone_wolf
 		prerequisite = { focus = FIN_moderate_politics }
 		mutually_exclusive = { focus = FIN_northern_defense_front focus = FIN_join_the_allies }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = FIN_moderate_politics
 		cost = 5
