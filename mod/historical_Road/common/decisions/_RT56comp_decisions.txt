@@ -331,7 +331,11 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = BUL
 					transfer_troops = yes
-					transfer_navy = yes
+				}
+			}
+			BUL = { 
+				transfer_navy = {
+					target = ITA
 				}
 			}
 		}
@@ -355,7 +359,11 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = MAN
 					transfer_troops = yes
-					transfer_navy = yes
+				}
+			}
+			MAN = { 
+				transfer_navy = {
+					target = JAP
 				}
 			}
 		}
@@ -379,7 +387,11 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = SIA
 					transfer_troops = yes
-					transfer_navy = yes
+				}
+			}
+			SIA = { 
+				transfer_navy = {
+					target = JAP
 				}
 			}
 		}
@@ -424,8 +436,12 @@ rt56_comp_annexation = {
 			ENG = {
 				annex_country = {
 					target = MAL
-					transfer_navy = yes
 					transfer_troops = yes
+				}
+			}
+			MAL = {
+				transfer_navy = {
+					target = ENG
 				}
 			}
 		}
@@ -449,7 +465,11 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = BRA
 					transfer_troops = yes
-					transfer_navy = yes
+				}
+			}
+			BRA = { 
+				transfer_navy = {
+					target = USA
 				}
 			}
 		}
@@ -473,7 +493,11 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = MEX
 					tranfer_troops = yes
-					transfer_navy = yes
+				}
+			}
+			MEX = { 
+				transfer_navy = {
+					target = USA
 				}
 			}
 		}
@@ -495,7 +519,11 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = NZL
 					tranfer_troops = yes
-					transfer_navy = yes
+				}
+			}
+			NZL = { 
+				transfer_navy = {
+					target = AST
 				}
 			}
 		}
