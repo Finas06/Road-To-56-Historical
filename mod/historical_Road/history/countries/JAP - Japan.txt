@@ -393,11 +393,6 @@ if = {
 		r56_gw_railway_gun = 1
 	}
 }
-create_import = {
-	resource = oil
-	factories = 2
-	exporter = USA
-}
 
 set_convoys = 400
 
@@ -630,6 +625,7 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { JAP }
+	}
 }
 if = {
 	limit = {
