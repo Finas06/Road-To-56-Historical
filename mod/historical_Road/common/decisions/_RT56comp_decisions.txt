@@ -538,7 +538,6 @@ rt56_comp_winter_war = {
 						idea = rt56_comp_sov_reparations_winter_war
 						days = 90
 					}
-					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
 					add_manpower = 75000
@@ -565,7 +564,6 @@ rt56_comp_winter_war = {
 				SOV = {
 					transfer_state = 146 #Karjala
 					transfer_state = 147 #Sala
-					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
 					clr_country_flag = rt56_comp_winter_war_decisions_active
@@ -577,7 +575,6 @@ rt56_comp_winter_war = {
 				SOV = {#Soviet Victory
 					transfer_state = 146 #Karjala
 					transfer_state = 147 #Sala
-					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
 					clr_country_flag = rt56_comp_winter_war_decisions_active
@@ -590,7 +587,6 @@ rt56_comp_winter_war = {
 				SOV = {
 					transfer_state = 146 #Karjala
 					transfer_state = 148 #Sala
-					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
 					clr_country_flag = rt56_comp_winter_war_decisions_active
@@ -602,7 +598,6 @@ rt56_comp_winter_war = {
 				SOV = {
 					transfer_state = 146 #Karjala
 					transfer_state = 147 #Sala
-					clr_country_flag = rt56_comp_winter_war_decisions_active
 				}
 				FIN = {
 					clr_country_flag = rt56_comp_winter_war_decisions_active

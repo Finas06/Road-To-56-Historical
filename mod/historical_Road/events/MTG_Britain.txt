@@ -3370,6 +3370,7 @@ country_event = {
 				has_full_control_of_state = 460
 				owns_state = 514
 				has_full_control_of_state = 514
+			}
 		}
 		if = {
 			limit = {
