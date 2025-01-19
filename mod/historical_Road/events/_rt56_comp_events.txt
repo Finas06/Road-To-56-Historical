@@ -1,4 +1,5 @@
 add_namespace = rt56_comp_winter_war_conditions
+add_namespace = rt56_comp_help
 country_event = {
     id = rt56_comp_winter_war_conditions.0
     title = rt56_comp_winter_war_conditions.t
@@ -7,5 +8,17 @@ country_event = {
     is_triggered_only = yes
     immediate = {
         hidden_effect{}
+    }
+}
+country_event = {
+    id = rt56_comp_help.0
+    title = rt56_comp_help.t
+    desc = rt56_comp_help.d
+    option = {
+        name = rt56_comp_help.0.a
+    }
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {}
     }
 }

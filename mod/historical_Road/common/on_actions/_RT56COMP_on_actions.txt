@@ -71,6 +71,9 @@ on_actions = {
 					days = 396 # Feb 37
 				}
 			}
+			every_country = {
+				country_event = { id = rt56_comp_help.0 }
+			}
 		}
 	}
 	on_capitulation = {
