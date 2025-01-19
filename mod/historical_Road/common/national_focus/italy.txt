@@ -16162,7 +16162,7 @@ focus_tree = {
 		available = {
 			has_country_flag = {
 				flag = rt56_comp_attacked_yugo_flag
-				days < 120
+				days > 120
 			}
 			hidden = {
 				NOT = {
@@ -16195,7 +16195,7 @@ focus_tree = {
 		available = {
 			has_country_flag = {
 				flag = rt56_comp_attacked_greece_flag
-				days < 90
+				days > 90
 			}
 			hidden = {
 				NOT = {
