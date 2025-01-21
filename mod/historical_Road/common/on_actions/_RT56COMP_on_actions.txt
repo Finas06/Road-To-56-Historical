@@ -135,4 +135,24 @@ on_actions = {
             }
         }
     }
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = SOV
+					}
+					ROOT = {
+						tag = GER
+					}
+				}
+				SOV = {
+					add_timed_idea = {
+						idea = rt56_comp_barb_spirit
+						days = 365
+					}
+				}
+			}
+		}
+	}
 }

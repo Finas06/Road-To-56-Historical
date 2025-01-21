@@ -5286,6 +5286,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP}
 
 		completion_reward = {
+			hidden_effect = {
+				set_technology = {
+					SOV_tank_soft = 1
+				}
+			}
+			custom_effect_tooltip = SOV_tank_soft_tt
 			add_to_variable = { SOV_defense_industry_land_equipment_upgrade_xp_cost = -0.1 }
 			custom_effect_tooltip = SOV_development_of_tankograd_ns_tt
 

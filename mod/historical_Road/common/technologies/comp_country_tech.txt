@@ -42,4 +42,24 @@ technologies = {
             }
         }
 	}
+    ##SOV Tanks
+    SOV_tank_soft = {
+        allow = {
+			always = no
+		}
+		research_cost = 1
+		start_year = 1936
+        heavy_tank_destroyer_brigade = {
+            soft_attack = 0.15
+        }
+        heavy_armor = {
+            soft_attack = 0.15
+        }
+        medium_tank_destroyer_brigade = {
+           soft_attack = 0.15
+        }
+        medium_armor = {
+            soft_attack = 0.15
+        }
+    }
 }

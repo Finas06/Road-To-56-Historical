@@ -182,31 +182,6 @@ a_nations_characters = {
     }
 }
 
-climate_change = {
-    possible = {
-        difficulty > 1
-        #has_start_date < 1936.01.02
-        has_any_custom_difficulty_setting = no
-        game_rules_allow_achievements = yes
-        exists = yes
-    }
-
-    happened = {
-        AND = {
-            has_tech = jungletroops
-            has_tech = jaegers
-            has_tech = desertinfantry_at
-        }
-    }
-
-    ribbon = {
-        frames = { 1 }
-        colors = {
-            { 125.0 56.0 101.0 1.0 }
-        }
-    }
-}
-
 heavy_metal = {
     possible = {
         difficulty > 1

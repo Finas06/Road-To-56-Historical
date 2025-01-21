@@ -53,7 +53,9 @@ rt56_comp_allowvols:0 "Volunteer Force"
 rt56_comp_attacked_yugo_flag:0 "§YHas completed focus Claims on Yugoslavia:§!"
 rt56_comp_attacked_greece_flag:0 "§YHas completed focus War with Greece:§!"
 spanish_units:0 "Spanish Volunteer Force"
+
 rt56_comp_sov_reparations_winter_war:0 "Winter War Reparations"
+rt56_comp_barb_spirit:0 "Industrial Mobilisation"
 
 #traits
 gets_purged:0 "§RWill die during the Great Purge!§!"
@@ -87,3 +89,4 @@ rt56_comp_slight_finnish_victory:0 "§tPartial finnish Victory!§!"
 rt56_comp_soviet_victory:0 "§tSoviet Victory!§!"
 rt56_comp_winter_war_conditions.desc:0 "The War is decided upon Mission timeout or when a participant choses to Surrender through decision.\n\nFull [FIN.GetFlag] Victory:\nMust have control of [FIN.GetFlag]§gHelsinki§!,[FIN.GetFlag]§gViipuri§! and [SOV.GetFlag]§RLeningrad§!\nEffect:\n[FIN.GetFlag]§gFinland§! £manpower_texticon +75.000\n[SOV.GetFlag] Forced to pay monetary compensation through §OConsumer Goods§!\n\nPartial [FIN.GetFlag] Victory:\nMust have control of [FIN.GetFlag]§gHelsinki§!, and either have less than 50.000 Casualties or control [FIN.GetFlag]§gViipuri§!\nEffect:\n[FIN.GetFlag]§gFinland§!£manpower_texticon +50.000\n[SOV.GetFlag]§RSoviet Union§!£state becomes Owner of [FIN.GetFlag]Sala and [FIN.GetFlag] Viipuri\n\n[SOV.GetFlag] Victory:\nFinland does §Rnot§! meet any of the Conditions necessary for victory.\n[SOV.GetFlag]§RSoviet Union§!£state becomes Owner of [FIN.GetFlag]Sala and [FIN.GetFlag] Viipuri"
 rt56_comp_help.d:0 "§RRead for General Advice!§!\n1. General Combat width is §B35/36§!, Mountaineers should be §B32§!. Note that Mobile Warfware bonusses dont show in template, Use §B40§! widths instead of 36\n2. Attaches give 10% War support. Send an Attache to China/Spain War if it puts you over the required §RWar Support§! to go up in Economy Law. §GHigher is always better§!\n3. Use The §RDivsion Templates§! Category to get a general idea of what your Units should look like.\n4. §RListen§! to Advice by §RExperienced Players§!\n5. §RDont Stay Deafened for extensive periods without notifying others§!\n6. Due to the Mod's Vanilla-like combat, use §RHeavy Tanks§! in most cases.\n§tDo not go above the Basic Tank Chassis under any circumstances, unless speficicly asked to§!"
+SOV_tank_soft_tt:0 "§YMedium and Heavy Tank Variants:§! £GFX_soft_attack_texticon Soft attack: §G+15.0%§!"

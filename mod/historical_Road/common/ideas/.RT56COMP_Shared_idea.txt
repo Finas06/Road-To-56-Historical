@@ -54,5 +54,18 @@ Ideas = {
 				special_forces_cap_flat = 10000
 			} 
 		}
+		rt56_comp_barb_spirit = {
+			picture = GFX_idea_GER_recovering_economy
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.3
+				production_speed_arms_factory_factor = 0.2
+			}
+		}
 	}
 }
