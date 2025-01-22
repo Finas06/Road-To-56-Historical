@@ -39,12 +39,16 @@ FRA_renault_organization = {
 	allowed = {	
 		OR = {
 			tag = FRA 
+			tag = SAF
+			tag = CAN
 			AND = {
 				tag = ETH 
 				has_dlc = "By Blood Alone"
 			}
-			tag = CAN
-			tag = SAF
+			AND = {
+				tag = BRA
+				has_dlc = "Trial of Allegiance"
+			}
 		}
 	}
 
@@ -77,22 +81,21 @@ FRA_renault_organization = {
 				}
 			}
 		}
-	
+		IF = {
+			limit = { FROM = { original_tag = BRA } }
+			custom_trigger_tooltip = {
+				tooltip = has_invited_mio_tt
+				FROM = {
+					has_completed_focus = BRA_invite_foreign_companies
+					has_country_flag = has_renault_mio_flag
+				}
+			}
+		}
 	}
 
 	initial_trait = {
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
-		}
-		name = generic_mio_initial_trait_infantry_tanks_designer
-		
-		limit_to_equipment_type = { 
-			armor
-		}
-		
-		equipment_bonus = {
-			armor_value = 0.05
-			maximum_speed =-0.05
 		}
 	}
 
@@ -102,7 +105,7 @@ FRA_renault_organization = {
 		icon = GFX_generic_mio_trait_icon_maximum_speed
 		special_trait_background = yes
 		
-		position = { x=6 y=0 }  
+		position = { x=5 y=0 }   
 		
 		limit_to_equipment_type = { medium_tank_chassis }
 		
@@ -118,10 +121,10 @@ FRA_renault_organization = {
 		icon = GFX_generic_mio_trait_icon_breakthrough
 		special_trait_background = yes
 		
-		position = { x=0 y=4 }  
-		relative_position_id = generic_mio_trait_heavy_tank_improvements
+		position = { x=1 y=1 }  
+		relative_position_id = generic_mio_trait_single_engine
 		
-		any_parent = { generic_mio_trait_heavy_tank_improvements }
+		any_parent = { generic_mio_trait_single_engine generic_mio_trait_dual_engine_redundancy }
 		
 		limit_to_equipment_type = { heavy_tank_chassis }
 		
