@@ -171,9 +171,9 @@ characters = {
 		corps_commander = {
 			traits = { media_personality armor_officer panzer_leader war_hero winter_specialist skilled_staffer organizer trickster offensive_doctrine logistics_wizard engineer }
 			skill = 6
-			attack_skill = 8
-			defense_skill = 8
-			planning_skill = 4
+			attack_skill = 9
+			defense_skill = 9
+			planning_skill = 6
 			logistics_skill = 5
 			legacy_id = 410
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
