@@ -8496,7 +8496,7 @@ focus_tree = {
 		id = SOV_the_centre
 		icon = GFX_goal_stalin
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
-		x = -8
+		x = 0
 		y = 1
 		offset = {
 			x = 8
@@ -13822,7 +13822,7 @@ focus_tree = {
 		id = SOV_addressing_internal_affairs
 		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
-		x = -2
+		x = -5
 		y = 1
 		offset = {
 			x = -7
@@ -14277,9 +14277,9 @@ focus_tree = {
 		id = SOV_the_comintern
 		icon = GFX_goal_generic_communist_pride
 		prerequisite = { focus = SOV_the_path_of_marxism_leninism }
-		x = 7
+		x = 6
 		y = 0
-		relative_position_id = SOV_addressing_internal_affairs
+		relative_position_id = SOV_the_centre
 		cost = 5
 
 		allow_branch = {

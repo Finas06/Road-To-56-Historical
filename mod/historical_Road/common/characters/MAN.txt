@@ -448,7 +448,7 @@ characters={
 			}
 		}
 		corps_commander = {
-			traits = { promising meticulous hill_fighter politically_connected commando }
+			traits = { meticulous hill_fighter politically_connected commando }
 			skill = 4
 			attack_skill = 5
 			defense_skill = 3

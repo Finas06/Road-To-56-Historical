@@ -576,9 +576,8 @@ ideas = {
 			picture = prc_low_popular_support3
 			
 			modifier = {	
-				production_speed_buildings_factor = -0.2
-				consumer_goods_factor = 0.2
-				industrial_capacity_factory = -0.15
+				stability_factor = -0.2
+				industrial_capacity_factory = 0.25
 			}
 		}
 

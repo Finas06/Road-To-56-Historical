@@ -58,6 +58,13 @@ on_actions = {
 								option = rt56_comp_vols_yes
 							}
 						}
+						OR = { 
+							original_tag = SOV
+							original_tag = GER
+							original_tag = JAP
+							original_tag = FRA
+							original_tag = ITA
+						}
 					}
 					add_timed_idea = {
 						idea = rt56_comp_allowvols

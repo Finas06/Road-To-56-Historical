@@ -2509,7 +2509,7 @@
 		y = 7
 		relative_position_id = MAN_first_five_year_plan
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -2517,7 +2517,6 @@
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			country_event = manchukuo_events.1
 		}
 	}
 
@@ -2529,7 +2528,7 @@
 		y = 8
 		relative_position_id = MAN_first_five_year_plan
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
