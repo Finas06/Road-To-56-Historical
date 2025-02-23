@@ -111,7 +111,6 @@ ETH_chitet_category = {
 	}
 	visible_when_empty = no 
 }
-
 ETH_second_italo_ethiopian_war_category = { 
 
 	icon = GFX_decision_category_ETH_italo_ethiopian_war
@@ -119,13 +118,7 @@ ETH_second_italo_ethiopian_war_category = {
 	scripted_gui = war_escalation_decision_ui
 	
 	allowed = {
-		OR = {
-			AND = {
-				original_tag = ETH
-				has_dlc = "By Blood Alone"
-			}
-			original_tag = ITA
-		}
+		always = no
 	}
 
 	priority = {

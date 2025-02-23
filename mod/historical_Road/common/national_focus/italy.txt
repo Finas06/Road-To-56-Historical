@@ -8468,7 +8468,7 @@ focus_tree = {
 		id = ITA_solid_progress
 		icon = GFX_focus_generic_attack_ethiopia
 		mutually_exclusive = { focus = ITA_the_abyssinian_fiasco focus = ITA_struggle_in_ethiopia }
-		x = -17
+		x = -16
 		y = 0
 		offset = {
 			x = -18
@@ -8503,10 +8503,6 @@ focus_tree = {
 		}
 
 		available = {
-			custom_trigger_tooltip = {
-				tooltip = ITA_solid_progress_completion_tt
-				always = no
-			}
 		}
 
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT}
@@ -8536,7 +8532,9 @@ focus_tree = {
 				always = no
 			}
 		}
-
+		allow_branch = {
+			always = no
+		}
 		completion_reward = {
 			add_popularity = {
 				ideology = fascism 
@@ -8609,7 +8607,7 @@ focus_tree = {
 		icon = GFX_focus_generic_secret_service_agency
 		prerequisite = { focus = ITA_solid_progress focus = ITA_the_abyssinian_fiasco focus = ITA_struggle_in_ethiopia }
 
-		x = 1
+		x = 0
 		y = 1
 		offset = {
 			x = 1
@@ -9375,15 +9373,9 @@ focus_tree = {
 			factor = 50
 		}		
 		bypass = {
-			OR = {
-				has_country_flag = ITA_defeat_in_ethiopia_flag
-				ITA_has_peaced_out_eth_on_startup = yes
-			}
 		}
 
 		available = {
-			NOT = { has_global_flag = second_italo_ethiopian_war_flag }
-			NOT = { has_country_flag = ITA_defeat_in_ethiopia_flag }
 		}
 
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_BALANCE_OF_POWER}
@@ -9524,7 +9516,7 @@ focus_tree = {
 		icon = GFX_focus_ITA_devaluate_the_lire
 		prerequisite = { focus = ITA_triumph_in_africa_bba }
 
-		x = -3
+		x = -1
 		y = 1
 		relative_position_id = ITA_triumph_in_africa_bba
 		cost = 5
@@ -9541,7 +9533,9 @@ focus_tree = {
 		id = ITA_anglo_italian_agreements
 		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = ITA_triumph_in_africa_bba }
-
+		allow_branch = {
+			always = no
+		}
 		x = -1
 		y = 1
 		relative_position_id = ITA_triumph_in_africa_bba
@@ -9590,7 +9584,9 @@ focus_tree = {
 		id = ITA_topple_amhara_rulers
 		icon = GFX_focus_ITA_topple_amhara_rulers
 		prerequisite = { focus = ITA_triumph_in_africa_bba }
-
+		allow_branch = {
+			always = no
+		}
 		x = 1
 		y = 1
 		relative_position_id = ITA_triumph_in_africa_bba
@@ -9714,7 +9710,7 @@ focus_tree = {
 		icon = GFX_focus_ITA_the_new_emperor_of_ethiopia
 		prerequisite = { focus = ITA_triumph_in_africa_bba }
 
-		x = 3
+		x = 1
 		y = 1
 		relative_position_id = ITA_triumph_in_africa_bba
 		cost = 5

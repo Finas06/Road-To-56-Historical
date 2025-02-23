@@ -515,10 +515,7 @@ if = {
 
 
 # DIPLOMACY / WAR 36
-declare_war_on = {
-	target = ETH
-	type = annex_everything
-}
+
 give_guarantee = ALB
 give_guarantee = SAN
 
@@ -1964,4 +1961,8 @@ if = {
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
 	}
+}
+set_autonomy = {
+	target = AOI
+	autonomous_state = autonomy_integrated_puppet
 }

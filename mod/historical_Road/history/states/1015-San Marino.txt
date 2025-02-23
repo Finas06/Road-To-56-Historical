@@ -2,21 +2,23 @@ state={
 	id=1015
 	name="STATE_1015"
 	manpower=11756
-	state_category = developed_rural
+	state_category = metropolis
 	provinces={
 		13308
 	}
 	history={
 		add_core_of = ITA
-		owner = ITA
+		add_core_of = AOI
+		owner = AOI
 		victory_points = {
 			13308 3
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 3
+			military_complex = 3
 		}
 	}
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1.3
 	local_supplies=0.000
 }

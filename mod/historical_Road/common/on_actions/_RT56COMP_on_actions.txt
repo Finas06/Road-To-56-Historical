@@ -81,6 +81,7 @@ on_actions = {
 			every_country = {
 				country_event = { id = rt56_comp_help.0 }
 			}
+			set_global_flag = second_italo_ethiopian_war_flag
 		}
 	}
 	on_capitulation = {

@@ -17,9 +17,6 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	continuous_focus_position = { x = 1400 y = 1000 }
-
-	shared_focus = GEN_Aviation_Effort
-	shared_focus = GEN_Naval_Effort
 	shared_focus = GEN_begin_industrial_buildup
 
 	focus = {
@@ -37,11 +34,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 150
-			custom_effect_tooltip = ITA_ministry_of_italian_africa_occupation_law_tt
-			show_ideas_tooltip = ITA_fake_colonial_police_law		
-			ROOT = {
-				set_occupation_law_where_available = colonial_police
-			}
 			if = {
 				limit = {
 					AND = {
