@@ -41,6 +41,11 @@ technologies = {
                 infantry_equipment = 60
             }
         }
+        shocktroop = {
+            need = {
+                infantry_equipment = 60
+            }
+        }
 	}
     ##SOV Tanks
     SOV_tank_soft = {
