@@ -16164,7 +16164,7 @@ focus_tree = {
 				flag = rt56_comp_attacked_yugo_flag
 				days > 120
 			}
-			hidden = {
+			hidden_trigger = {
 				NOT = {
 					country_exists = YUG
 				}
@@ -16197,7 +16197,7 @@ focus_tree = {
 				flag = rt56_comp_attacked_greece_flag
 				days > 90
 			}
-			hidden = {
+			hidden_trigger = {
 				NOT = {
 					country_exists = GRE
 				}

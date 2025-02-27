@@ -17004,7 +17004,6 @@ focus_tree = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = available_industrial_concern
-			show_ideas_tooltip = HUN_maort
 
 		}
 	}

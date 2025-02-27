@@ -1,6 +1,6 @@
 shared_focus = {
 	allow_branch = {
-		always = false
+		always = no
 	}
 	id = RAJ_Establish_the_Planning_Commission
 	icon = GFX_goal_generic_state_economy

@@ -4997,14 +4997,8 @@ focus_tree = {
 					}
 				}
 				else = {
-					every_unit_leader = {
-						limit = {
-							is_character = GER_georg_lindemann
-							NOT = {
-								has_trait = unpopular
-							}
-						}
-						add_trait = {trait = unpopular }
+					GER_georg_lindemann = {
+						add_trait = { trait = unpopular }
 					}
 				}
 			}
@@ -22665,7 +22659,7 @@ focus_tree = {
 		relative_position_id = GER_fuhrerprinzip
 		cost = 5
 		allow_branch = {
-			always = false 
+			always = no 
 		}
 		available = {
 			has_government = fascism

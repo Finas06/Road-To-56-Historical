@@ -2499,8 +2499,8 @@ focus_tree = {
 					}
 				}
 			}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ANNEXATION }
 		}
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ANNEXATION }
 	}
 	focus = {
 		id = JAP_proclaim_indonesian_liberation

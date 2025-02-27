@@ -41,6 +41,9 @@ rt56_comp_FIN_winter_war_capitulation:0 "Accept Soviet demands"
 rt56_comp_winter_war_event:0 "Capitulation and Effects info"
 rt56_comp_FIN_winter_war_demand_sov_surrender:0 "Demand Soviet Surrender"
 
+rt56_comp_host_tool_decisions_category:0 "Host Decisions"
+efficiency_fixer_decision:0 "Efficiency Growth Compensation"
+
 #events
 rt56_comp_winter_war_conditions.t:0 "Winter War Victory Conditions"
 rt56_comp_help.t:0 "§RNew Player Advice§!"
@@ -53,6 +56,7 @@ rt56_comp_allowvols:0 "Volunteer Force"
 rt56_comp_attacked_yugo_flag:0 "§YHas completed focus Claims on Yugoslavia:§!"
 rt56_comp_attacked_greece_flag:0 "§YHas completed focus War with Greece:§!"
 spanish_units:0 "Spanish Volunteer Force"
+efficiency_fixer_idea:0 "Blame host for crash, not me!"
 
 rt56_comp_sov_reparations_winter_war:0 "Winter War Reparations"
 rt56_comp_barb_spirit:0 "Industrial Mobilisation"

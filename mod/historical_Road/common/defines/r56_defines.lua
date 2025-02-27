@@ -713,3 +713,5 @@
 	NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_DOT_CUTOFF_MAX = 1000.0  -- Max range for victory point text 
 	NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF_MIN = 100.0 -- Min range for victory point text
 	NDefines_Graphics.NGraphics.VICTORY_POINT_MAP_ICON_DOT_CUTOFF_MAX = 1000.0 -- Max range for victory point text
+
+	NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 10000000

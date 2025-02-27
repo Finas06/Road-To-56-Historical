@@ -2521,7 +2521,7 @@ focus = {
 	cost = 5
 
 	allow_branch = {
-		always = false
+		always = no
 	}
 	ai_will_do = {
 		factor = 0
@@ -2931,7 +2931,7 @@ focus = {
 	cost = 5
 
 	allow_branch = {
-		always = false
+		always = no
 	}
 	ai_will_do = {
 		factor = 0

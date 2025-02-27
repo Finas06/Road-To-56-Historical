@@ -386,7 +386,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "jngdst_clothes_gw_tree"
+				name = "#_gw_tree"
 				position = { x = 140 y = 295 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

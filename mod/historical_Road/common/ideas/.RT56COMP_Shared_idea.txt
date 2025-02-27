@@ -67,5 +67,17 @@ Ideas = {
 				production_speed_arms_factory_factor = 0.2
 			}
 		}
+		efficiency_fixer_idea = {
+			picture = GFX_idea_GER_recovering_economy
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_factory_efficiency_gain_factor = 100
+			}
+		}
 	}
 }

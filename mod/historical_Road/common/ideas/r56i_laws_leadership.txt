@@ -46,14 +46,6 @@ ideas = {
 				NOT = {
 					has_government = communism
 				}
-				OR = {
-					is_subject = no
-					OVERLORD = {
-						NOT = {
-							has_government = communism
-						}
-					}
-				}
 				custom_trigger_tooltip = {
 					tooltip = not_has_government_anarchism_tt
 					NOT = {

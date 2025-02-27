@@ -14,7 +14,6 @@ set_technology = {
 	etax_doctrine = 1
 	camo = 1
 	
-	jngdst_clothes_gw = 1	
 	jungletroops = 1
 	
 	tech_engineers = 1

@@ -3783,7 +3783,6 @@ focus_tree = {
             modifier = {
                 add = 1000
                 }
-            }
         }
         completion_reward = {
         }

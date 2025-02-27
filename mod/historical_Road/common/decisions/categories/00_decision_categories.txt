@@ -582,3 +582,14 @@ rt56_comp_winter_war = {
 	}
 	visible_when_empty = yes
 }
+rt56_comp_host_tool_decisions_category = {
+	priority = 1002
+	icon = generic_independence
+	allowed = {
+		always = yes
+	}
+	visible = {
+		has_country_flag = ccshtool_open_cflag
+	}
+	visible_when_empty = yes
+}

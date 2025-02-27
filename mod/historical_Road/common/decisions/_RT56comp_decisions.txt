@@ -37,7 +37,7 @@ rt56comp_decisions = {
 			always = yes
 		}
 		visible = {
-			always = true
+			always = yes
 		}
 		fire_only_once = no
 		modifier = {}
@@ -361,6 +361,15 @@ rt56_comp_annexation = {
 					transfer_troops = yes
 				}
 			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_controlled_by = JAP
+						is_core_of = MAN
+					}
+					add_compliance = 40
+				}
+			}
 			MAN = { 
 				transfer_navy = {
 					target = JAP
@@ -387,6 +396,15 @@ rt56_comp_annexation = {
 				annex_country = {
 					target = SIA
 					transfer_troops = yes
+				}
+			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_controlled_by = JAP
+						is_core_of = SIA
+					}
+					add_compliance = 60
 				}
 			}
 			SIA = { 
@@ -722,5 +740,25 @@ rt56_comp_winter_war = {
 				}
 			}
 		}
+	}
+}
+rt56_comp_host_tool_decisions_category = {
+	efficiency_fixer_decision = {
+		icon = generic_form_nation 
+		visible = {
+			has_country_flag = ccshtool_open_cflag
+			NOT = {
+				check_variable = { global.ccshtool_target_var  = 0 }
+			}
+		}
+		fire_only_once = no
+		complete_effect = {
+			var:global.ccshtool_target_var = {
+				add_timed_idea = {
+					idea = efficiency_fixer_idea
+					days = 3
+				}
+			}
+		}	
 	}
 }
